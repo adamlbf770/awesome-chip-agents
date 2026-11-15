@@ -16,40 +16,40 @@
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
-| **[agentic-asic](../../resources/agent-infrastructure/agentic-asic.md)**<br>作为 MCP 客户端编排 RTL 审查、仿真、形式验证、综合、布局布线、GDS 检查及 FPGA 流程，并生成结构化报告。 | [基础设施](../../resources/tags/infrastructure.md) · [工具调用](../../resources/tags/tool-use.md) · [RTL](../../resources/tags/rtl.md) · [物理设计](../../resources/tags/physical-design.md) · [EDA 流程](../../resources/tags/eda-flow.md)<br>开源项目 / 工具 / 平台 | — | [zesun33/agentic-asic](https://github.com/zesun33/agentic-asic) | 1 | 2026-10-05<br>采集 2026-11-13 |
+| **[agentic-asic](../../resources/agent-infrastructure/agentic-asic.md)**<br>作为 MCP 客户端编排 RTL 审查、仿真、形式验证、综合、布局布线、GDS 检查及 FPGA 流程，并生成结构化报告。 | [基础设施](../../resources/tags/infrastructure.md) · [工具调用](../../resources/tags/tool-use.md) · [RTL](../../resources/tags/rtl.md) · [物理设计](../../resources/tags/physical-design.md) · [EDA 流程](../../resources/tags/eda-flow.md)<br>开源项目 / 工具 / 平台 | — | [zesun33/agentic-asic](https://github.com/zesun33/agentic-asic) | 1 | 2026-10-05<br>采集 2026-11-15 |
 
 ## 2026-08
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
-| **[TraceWeave](../../resources/agent-infrastructure/traceweave.md)**<br>面向 RTL/SoC 的调试 MCP 服务，将编译记录、日志、RTL、波形、信号连通性和 X/Z 来源关联起来。 | [基础设施](../../resources/tags/infrastructure.md) · [工具调用](../../resources/tags/tool-use.md) · [验证](../../resources/tags/verification.md) · [调试](../../resources/tags/debugging.md) · [波形分析](../../resources/tags/waveform.md)<br>开源项目 / 工具 / 平台 | — | [gokeshenzhen/TraceWeave](https://github.com/gokeshenzhen/TraceWeave) | 131 | 2026-10-13<br>采集 2026-11-13 |
-| **[wave-mcp](../../resources/agent-infrastructure/wave-mcp.md)**<br>通过 MCP 为 LLM Agent 提供 FST 波形查询、RTL 驱动分析、值与 X 态追踪及波形对比。 | [基础设施](../../resources/tags/infrastructure.md) · [工具调用](../../resources/tags/tool-use.md) · [RTL](../../resources/tags/rtl.md) · [波形分析](../../resources/tags/waveform.md) · [调试](../../resources/tags/debugging.md)<br>开源项目 / 工具 / 平台 | — | [Tencent/wave-mcp](https://github.com/Tencent/wave-mcp) | 282 | 2026-10-23<br>采集 2026-11-13 |
+| **[TraceWeave](../../resources/agent-infrastructure/traceweave.md)**<br>面向 RTL/SoC 的调试 MCP 服务，将编译记录、日志、RTL、波形、信号连通性和 X/Z 来源关联起来。 | [基础设施](../../resources/tags/infrastructure.md) · [工具调用](../../resources/tags/tool-use.md) · [验证](../../resources/tags/verification.md) · [调试](../../resources/tags/debugging.md) · [波形分析](../../resources/tags/waveform.md)<br>开源项目 / 工具 / 平台 | — | [gokeshenzhen/TraceWeave](https://github.com/gokeshenzhen/TraceWeave) | 131 | 2026-10-13<br>采集 2026-11-15 |
+| **[wave-mcp](../../resources/agent-infrastructure/wave-mcp.md)**<br>通过 MCP 为 LLM Agent 提供 FST 波形查询、RTL 驱动分析、值与 X 态追踪及波形对比。 | [基础设施](../../resources/tags/infrastructure.md) · [工具调用](../../resources/tags/tool-use.md) · [RTL](../../resources/tags/rtl.md) · [波形分析](../../resources/tags/waveform.md) · [调试](../../resources/tags/debugging.md)<br>开源项目 / 工具 / 平台 | — | [Tencent/wave-mcp](https://github.com/Tencent/wave-mcp) | 285 | 2026-10-23<br>采集 2026-11-15 |
 
 ## 2026-06
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
-| **[hw-agent-tooling](../../resources/agent-infrastructure/hw-agent-tooling.md)**<br>硬件 Agent 工具组合的入口页，链接九个分别发布的 RTL、验证、物理设计、FPGA 与 SPICE MCP 服务。 | [基础设施](../../resources/tags/infrastructure.md) · [工具调用](../../resources/tags/tool-use.md) · [综述 / 教程](../../resources/tags/overview.md) · [EDA 流程](../../resources/tags/eda-flow.md)<br>开源项目 / 综述 / 教程 | — | [zesun33/hw-agent-tooling](https://github.com/zesun33/hw-agent-tooling) | 0 | 2026-10-05<br>采集 2026-11-13 |
+| **[hw-agent-tooling](../../resources/agent-infrastructure/hw-agent-tooling.md)**<br>硬件 Agent 工具组合的入口页，链接九个分别发布的 RTL、验证、物理设计、FPGA 与 SPICE MCP 服务。 | [基础设施](../../resources/tags/infrastructure.md) · [工具调用](../../resources/tags/tool-use.md) · [综述 / 教程](../../resources/tags/overview.md) · [EDA 流程](../../resources/tags/eda-flow.md)<br>开源项目 / 综述 / 教程 | — | [zesun33/hw-agent-tooling](https://github.com/zesun33/hw-agent-tooling) | 0 | 2026-10-05<br>采集 2026-11-15 |
 | **[CHIA](../../resources/architecture-hls-codesign/chia.md)**<br>提供面向 Agentic 软硬件协同设计研究的开源框架，并集成 Chipyard 和 gem5。 | [架构探索](../../resources/tags/architecture.md) · [软硬件协同](../../resources/tags/codesign.md) · [基础设施](../../resources/tags/infrastructure.md)<br>论文 · 跨方向索引 | [论文](https://arxiv.org/abs/2606.27350) | — | — | — |
 
 ## 2026-04
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
-| **[ltspice-mcp](../../resources/agent-infrastructure/ltspice-mcp.md)**<br>通过 MCP 工具与 Python API 提供 LTspice/ngspice 实验、原理图编辑、扫描、结果分析和波形绘图。 | [基础设施](../../resources/tags/infrastructure.md) · [工具调用](../../resources/tags/tool-use.md) · [模拟 / RF](../../resources/tags/analog-rf.md) · [仿真](../../resources/tags/simulation.md)<br>开源项目 / 工具 / 平台 | — | [Cognitohazard/ltspice-mcp](https://github.com/Cognitohazard/ltspice-mcp) | 71 | 2026-11-13<br>采集 2026-11-13 |
+| **[ltspice-mcp](../../resources/agent-infrastructure/ltspice-mcp.md)**<br>通过 MCP 工具与 Python API 提供 LTspice/ngspice 实验、原理图编辑、扫描、结果分析和波形绘图。 | [基础设施](../../resources/tags/infrastructure.md) · [工具调用](../../resources/tags/tool-use.md) · [模拟 / RF](../../resources/tags/analog-rf.md) · [仿真](../../resources/tags/simulation.md)<br>开源项目 / 工具 / 平台 | — | [Cognitohazard/ltspice-mcp](https://github.com/Cognitohazard/ltspice-mcp) | 74 | 2026-11-13<br>采集 2026-11-15 |
 
 ## 2026-03
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
-| **[waveform-mcp](../../resources/agent-infrastructure/waveform-mcp.md)**<br>基于 Rust 与 wellen 的 MCP 服务和 CLI，用于查询 VCD/FST 层次、信号元数据、取值和事件。 | [基础设施](../../resources/tags/infrastructure.md) · [工具调用](../../resources/tags/tool-use.md) · [波形分析](../../resources/tags/waveform.md) · [调试](../../resources/tags/debugging.md)<br>开源项目 / 工具 / 平台 | — | [jiegec/waveform-mcp](https://github.com/jiegec/waveform-mcp) | 49 | 2026-11-10<br>采集 2026-11-13 |
+| **[waveform-mcp](../../resources/agent-infrastructure/waveform-mcp.md)**<br>基于 Rust 与 wellen 的 MCP 服务和 CLI，用于查询 VCD/FST 层次、信号元数据、取值和事件。 | [基础设施](../../resources/tags/infrastructure.md) · [工具调用](../../resources/tags/tool-use.md) · [波形分析](../../resources/tags/waveform.md) · [调试](../../resources/tags/debugging.md)<br>开源项目 / 工具 / 平台 | — | [jiegec/waveform-mcp](https://github.com/jiegec/waveform-mcp) | 49 | 2026-11-10<br>采集 2026-11-15 |
 | **[FluxEDA](../../resources/agent-infrastructure/fluxeda.md)**<br>为可复现的长时运行 Agentic EDA 流程提供有状态执行和工具集成基础设施。 | [基础设施](../../resources/tags/infrastructure.md) · [EDA 流程](../../resources/tags/eda-flow.md) · [工具调用](../../resources/tags/tool-use.md)<br>论文 | [论文](https://arxiv.org/abs/2603.25243) | — | — | — |
 
 ## 2026-02
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
-| **[OpenROAD MCP](../../resources/agent-infrastructure/openroad-mcp.md)**<br>通过 MCP 会话、Tcl 命令、指标和报告图像检查，将 Agent 连接到 OpenROAD 与 ORFS。 | [基础设施](../../resources/tags/infrastructure.md) · [工具调用](../../resources/tags/tool-use.md) · [物理设计](../../resources/tags/physical-design.md) · [EDA 流程](../../resources/tags/eda-flow.md)<br>开源项目 / 工具 / 平台 | — | [The-OpenROAD-Project/OpenROAD-MCP](https://github.com/The-OpenROAD-Project/OpenROAD-MCP) | 35 | 2026-11-13<br>采集 2026-11-13 |
+| **[OpenROAD MCP](../../resources/agent-infrastructure/openroad-mcp.md)**<br>通过 MCP 会话、Tcl 命令、指标和报告图像检查，将 Agent 连接到 OpenROAD 与 ORFS。 | [基础设施](../../resources/tags/infrastructure.md) · [工具调用](../../resources/tags/tool-use.md) · [物理设计](../../resources/tags/physical-design.md) · [EDA 流程](../../resources/tags/eda-flow.md)<br>开源项目 / 工具 / 平台 | — | [The-OpenROAD-Project/OpenROAD-MCP](https://github.com/The-OpenROAD-Project/OpenROAD-MCP) | 35 | 2026-11-15<br>采集 2026-11-15 |
 
 ## 2026 · 月份待核实
 
@@ -68,7 +68,7 @@
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
-| **[MCP4EDA](../../resources/agent-infrastructure/mcp4eda.md)**<br>基于 MCP 的 RTL-to-GDSII 框架，集成综合、仿真、OpenLane，并利用后端反馈优化综合。 | [基础设施](../../resources/tags/infrastructure.md) · [工具调用](../../resources/tags/tool-use.md) · [RTL](../../resources/tags/rtl.md) · [物理设计](../../resources/tags/physical-design.md) · [EDA 流程](../../resources/tags/eda-flow.md)<br>论文 / 开源项目 / 工具 / 平台 | [论文](https://arxiv.org/abs/2507.19570) | [NellyW8/MCP4EDA](https://github.com/NellyW8/MCP4EDA) | 113 | 2025-07-29<br>采集 2026-11-13 |
+| **[MCP4EDA](../../resources/agent-infrastructure/mcp4eda.md)**<br>基于 MCP 的 RTL-to-GDSII 框架，集成综合、仿真、OpenLane，并利用后端反馈优化综合。 | [基础设施](../../resources/tags/infrastructure.md) · [工具调用](../../resources/tags/tool-use.md) · [RTL](../../resources/tags/rtl.md) · [物理设计](../../resources/tags/physical-design.md) · [EDA 流程](../../resources/tags/eda-flow.md)<br>论文 / 开源项目 / 工具 / 平台 | [论文](https://arxiv.org/abs/2507.19570) | [NellyW8/MCP4EDA](https://github.com/NellyW8/MCP4EDA) | 113 | 2025-07-29<br>采集 2026-11-15 |
 
 ## 2025 · 月份待核实
 
@@ -81,13 +81,13 @@
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
-| **[Virtuoso-Bridge-Lite](../../resources/agent-infrastructure/virtuoso-bridge-lite.md)**<br>通过 Python、命令行和可选 MCP 接口，将模拟与混合信号设计 Agent 连接到 Virtuoso、Spectre，支持设计编辑、仿真与结果读取。 | [基础设施](../../resources/tags/infrastructure.md) · [工具调用](../../resources/tags/tool-use.md) · [模拟 / RF](../../resources/tags/analog-rf.md) · [仿真](../../resources/tags/simulation.md) · [EDA 流程](../../resources/tags/eda-flow.md)<br>开源项目 / 工具 / 平台 | — | [Arcadia-1/virtuoso-bridge-lite](https://github.com/Arcadia-1/virtuoso-bridge-lite) | 1,025 | 2026-11-05<br>采集 2026-11-08 |
-| **[qucs-mcp](../../resources/agent-infrastructure/qucs-mcp.md)**<br>Python MCP 服务，用于生成 Qucs 原理图、运行无界面 QucsStudio 仿真并解析结果文件。 | [基础设施](../../resources/tags/infrastructure.md) · [工具调用](../../resources/tags/tool-use.md) · [模拟 / RF](../../resources/tags/analog-rf.md) · [仿真](../../resources/tags/simulation.md)<br>开源项目 / 工具 / 平台 | — | [leonardoAB1/qucs-mcp](https://github.com/leonardoAB1/qucs-mcp) | 2 | 2026-07-11<br>采集 2026-11-13 |
-| **[eda-mcp (LittleBlackCQ)](../../resources/agent-infrastructure/eda-mcp-littleblackcq.md)**<br>Docker 化 MCP 服务，打包 Yosys 综合、Icarus 仿真、Verilator lint 和 waveform-cli 查询。 | [基础设施](../../resources/tags/infrastructure.md) · [工具调用](../../resources/tags/tool-use.md) · [RTL](../../resources/tags/rtl.md) · [仿真](../../resources/tags/simulation.md) · [波形分析](../../resources/tags/waveform.md)<br>工具 / 平台 | — | [LittleBlackCQ/eda-mcp](https://github.com/LittleBlackCQ/eda-mcp) | 2 | 2026-06-17<br>采集 2026-11-13 |
-| **[EDA_MCP](../../resources/agent-infrastructure/eda-mcp.md)**<br>通过 MCP 向 Agent 开放远程 Virtuoso、Eldo 会话，并提供工作区同步和物理验证流程。 | [基础设施](../../resources/tags/infrastructure.md) · [工具调用](../../resources/tags/tool-use.md) · [EDA 流程](../../resources/tags/eda-flow.md) · [模拟 / RF](../../resources/tags/analog-rf.md) · [仿真](../../resources/tags/simulation.md)<br>开源项目 / 工具 / 平台 | — | [SiliCAD/EDA_MCP](https://github.com/SiliCAD/EDA_MCP) | 36 | 2026-10-27<br>采集 2026-11-08 |
-| **[circuit-sim-mcp](../../resources/agent-infrastructure/circuit-sim-mcp.md)**<br>基于 PySpice/ngspice 的 MCP 服务，支持电路构建、DC、AC、瞬态仿真和结果检查。 | [基础设施](../../resources/tags/infrastructure.md) · [工具调用](../../resources/tags/tool-use.md) · [模拟 / RF](../../resources/tags/analog-rf.md) · [仿真](../../resources/tags/simulation.md)<br>工具 / 平台 | — | [ghensley/circuit-sim-mcp](https://github.com/ghensley/circuit-sim-mcp) | 1 | 2025-07-11<br>采集 2026-11-13 |
+| **[Virtuoso-Bridge-Lite](../../resources/agent-infrastructure/virtuoso-bridge-lite.md)**<br>通过 Python、命令行和可选 MCP 接口，将模拟与混合信号设计 Agent 连接到 Virtuoso、Spectre，支持设计编辑、仿真与结果读取。 | [基础设施](../../resources/tags/infrastructure.md) · [工具调用](../../resources/tags/tool-use.md) · [模拟 / RF](../../resources/tags/analog-rf.md) · [仿真](../../resources/tags/simulation.md) · [EDA 流程](../../resources/tags/eda-flow.md)<br>开源项目 / 工具 / 平台 | — | [Arcadia-1/virtuoso-bridge-lite](https://github.com/Arcadia-1/virtuoso-bridge-lite) | 1,063 | 2026-11-12<br>采集 2026-11-15 |
+| **[qucs-mcp](../../resources/agent-infrastructure/qucs-mcp.md)**<br>Python MCP 服务，用于生成 Qucs 原理图、运行无界面 QucsStudio 仿真并解析结果文件。 | [基础设施](../../resources/tags/infrastructure.md) · [工具调用](../../resources/tags/tool-use.md) · [模拟 / RF](../../resources/tags/analog-rf.md) · [仿真](../../resources/tags/simulation.md)<br>开源项目 / 工具 / 平台 | — | [leonardoAB1/qucs-mcp](https://github.com/leonardoAB1/qucs-mcp) | 2 | 2026-07-11<br>采集 2026-11-15 |
+| **[eda-mcp (LittleBlackCQ)](../../resources/agent-infrastructure/eda-mcp-littleblackcq.md)**<br>Docker 化 MCP 服务，打包 Yosys 综合、Icarus 仿真、Verilator lint 和 waveform-cli 查询。 | [基础设施](../../resources/tags/infrastructure.md) · [工具调用](../../resources/tags/tool-use.md) · [RTL](../../resources/tags/rtl.md) · [仿真](../../resources/tags/simulation.md) · [波形分析](../../resources/tags/waveform.md)<br>工具 / 平台 | — | [LittleBlackCQ/eda-mcp](https://github.com/LittleBlackCQ/eda-mcp) | 2 | 2026-06-17<br>采集 2026-11-15 |
+| **[EDA_MCP](../../resources/agent-infrastructure/eda-mcp.md)**<br>通过 MCP 向 Agent 开放远程 Virtuoso、Eldo 会话，并提供工作区同步和物理验证流程。 | [基础设施](../../resources/tags/infrastructure.md) · [工具调用](../../resources/tags/tool-use.md) · [EDA 流程](../../resources/tags/eda-flow.md) · [模拟 / RF](../../resources/tags/analog-rf.md) · [仿真](../../resources/tags/simulation.md)<br>开源项目 / 工具 / 平台 | — | [SiliCAD/EDA_MCP](https://github.com/SiliCAD/EDA_MCP) | 38 | 2026-10-27<br>采集 2026-11-15 |
+| **[circuit-sim-mcp](../../resources/agent-infrastructure/circuit-sim-mcp.md)**<br>基于 PySpice/ngspice 的 MCP 服务，支持电路构建、DC、AC、瞬态仿真和结果检查。 | [基础设施](../../resources/tags/infrastructure.md) · [工具调用](../../resources/tags/tool-use.md) · [模拟 / RF](../../resources/tags/analog-rf.md) · [仿真](../../resources/tags/simulation.md)<br>工具 / 平台 | — | [ghensley/circuit-sim-mcp](https://github.com/ghensley/circuit-sim-mcp) | 1 | 2025-07-11<br>采集 2026-11-15 |
 | **[Chipmind](../../resources/agent-infrastructure/chipmind.md)**<br>面向芯片设计和 EDA 自动化的商业 AI Agent 平台。 | [商业平台](../../resources/tags/commercial.md) · [EDA 流程](../../resources/tags/eda-flow.md) · [厂商报告](../../resources/tags/vendor-report.md)<br>工具 / 平台 | [原始来源](https://www.chipmind.ai/) | — | — | — |
-| **[Booley](../../resources/agent-infrastructure/booley.md)**<br>在 VS Code 中为编码 Agent 提供可复现的 RTL 工具流程、波形查询和确定性验收检查。 | [基础设施](../../resources/tags/infrastructure.md) · [RTL](../../resources/tags/rtl.md) · [工具调用](../../resources/tags/tool-use.md) · [验证](../../resources/tags/verification.md) · [波形分析](../../resources/tags/waveform.md)<br>开源项目 / 工具 / 平台 | — | [boldaxolotl/booley](https://github.com/boldaxolotl/booley) | 25 | 2026-11-08<br>采集 2026-11-08 |
+| **[Booley](../../resources/agent-infrastructure/booley.md)**<br>在 VS Code 中为编码 Agent 提供可复现的 RTL 工具流程、波形查询和确定性验收检查。 | [基础设施](../../resources/tags/infrastructure.md) · [RTL](../../resources/tags/rtl.md) · [工具调用](../../resources/tags/tool-use.md) · [验证](../../resources/tags/verification.md) · [波形分析](../../resources/tags/waveform.md)<br>开源项目 / 工具 / 平台 | — | [boldaxolotl/booley](https://github.com/boldaxolotl/booley) | 27 | 2026-11-15<br>采集 2026-11-15 |
 
 # 相关动态与视频
 
