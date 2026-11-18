@@ -155,7 +155,7 @@ function Detail({ page }: { page: Page }) {
       <DownloadMetrics resource={r} locale={locale} />
       {catalog.repository && <section className="detail-panel"><h2>{l('Help improve this entry', '一起完善这条资源')}</h2>
         <External href={repoLink('/edit/HEAD/' + r.path)} locale={locale} resource={r.id} kind="edit">{l('Edit on GitHub', '在 GitHub 上编辑')}</External>
-        <br /><External href={repoLink('/issues/new?title=' + encodeURIComponent('Resource correction: ' + r.name))} locale={locale} resource={r.id} kind="contribute">{l('Report a correction', '反馈错误或补充')}</External>
+        <br /><External href={repoLink('/issues/new?template=resource-suggestion.yml&title=' + encodeURIComponent('Resource correction: ' + r.name))} locale={locale} resource={r.id} kind="contribute">{l('Report a correction', '反馈错误或补充')}</External>
       </section>}
     </aside></div>
   </>;
@@ -168,7 +168,7 @@ function Home({ locale }: { locale: Locale }) {
       <h1>{l('Discover the agents.', '发现芯片 Agent。')}<br /><em>{l('Build the next chip.', '探索设计新可能。')}</em></h1>
       <p>{l('Papers, tools, benchmarks, and infrastructure for LLM-assisted chip design. Curated in the open, connected by purpose.', '汇集芯片设计 LLM Agent 的论文、工具、评测基准与基础设施。公开维护，按用途连接，让探索更有方向。')}</p>
       <div className="hero-actions"><a className="button primary" href={route({ locale, kind: 'catalog' })}>{l('Explore resources', '探索资源库')} →</a>
-        {catalog.repository && <External href={repoLink('/blob/HEAD/CONTRIBUTING.md')} locale={locale} kind="contribute">{l('Contribute a resource', '推荐一项资源')}</External>}</div>
+        {catalog.repository && <External href={repoLink('/issues/new?template=resource-suggestion.yml')} locale={locale} kind="contribute">{l('Contribute a resource', '推荐一项资源')}</External>}</div>
       <div className="hero-stats"><span><strong>{catalog.resources.length}</strong>{l('Resources', '项资源')}</span><span><strong>{Object.keys(catalog.taxonomy.directions).length}</strong>{l('Directions', '个方向')}</span><span><strong>EN / 中</strong>{l('One shared catalog', '同一份资源库')}</span></div>
     </div><div className="circuit" aria-hidden="true"><div className="circuit-label">CHIP AGENT STACK</div>
       <div className="circuit-chip"><span>LLM</span><strong>AGENT</strong><small>reason · act · verify</small></div>
@@ -184,7 +184,7 @@ function Home({ locale }: { locale: Locale }) {
       <div className="resource-grid">{catalog.resources.slice(0, 6).map(resource => <Card key={resource.id} resource={resource} locale={locale} />)}</div>
     </section>
     <section className="contribute-banner"><div><p className="eyebrow">{l('BUILT TOGETHER', '一起维护，一起探索')}</p><h2>{l('Know a resource we should include?', '有值得收录的资源？')}</h2><p>{l('Share a link, correct a detail, or help translate.', '推荐一个链接、纠正一处信息，或补充一段翻译。')}</p></div>
-      {catalog.repository && <a className="button primary" href={repoLink('/issues/new')} onClick={() => track('contribute', { language: locale })}>{l('Suggest a resource', '推荐资源')} ↗</a>}
+      {catalog.repository && <a className="button primary" href={repoLink('/issues/new?template=resource-suggestion.yml')} onClick={() => track('contribute', { language: locale })}>{l('Suggest a resource', '推荐资源')} ↗</a>}
     </section>
   </>;
 }
