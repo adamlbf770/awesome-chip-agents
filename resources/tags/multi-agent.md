@@ -25,4 +25,5 @@
 | [Spec2RTL-Agent](../../resources/rtl-generation/spec2rtl-agent.md) | 2025-06 | RTL Generation and Editing / RTL 生成与编辑 |
 | [MAGE](../../resources/rtl-generation/mage.md) | 2024-12 | RTL Generation and Editing / RTL 生成与编辑 |
 | [Cadence ChipStack](../../resources/rtl-generation/cadence-chipstack.md) | Unknown / 待核实 | RTL Generation and Editing / RTL 生成与编辑 |
+| [Bronco AI](../../resources/verification-debugging/bronco-ai.md) | Unknown / 待核实 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
 | [AgentEngineer webinar](../../resources/agent-infrastructure/agentengineer-webinar.md) | Unknown / 待核实 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |

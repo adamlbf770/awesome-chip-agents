@@ -14,6 +14,7 @@
 | [GPT-Synopsys partnership](../../resources/agent-infrastructure/gpt-synopsys-announcement.md) | 2026-09-30 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [AgentEngineer / Autopilot announcement](../../resources/agent-infrastructure/agentengineer-autopilot-announcement.md) | 2026-09-28 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [ChipStack RTL / PPA announcement](../../resources/rtl-generation/chipstack-rtl-announcement.md) | 2026-09-22 | RTL Generation and Editing / RTL 生成与编辑 |
+| [Bronco DVBench announcement](../../resources/verification-debugging/dvbench-announcement.md) | 2026-07-28 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
 | [Synopsys / AMD / Microsoft](../../resources/physical-design/synopsys-amd-microsoft-2026.md) | 2026-07-27 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
 | [Synopsys / NVIDIA workflows](../../resources/verification-debugging/synopsys-nvidia-workflows-2026.md) | 2026-07-26 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
 | [Synopsys Converge · AgentEngineer](../../resources/rtl-generation/synopsys-converge-2026.md) | 2026-03-11 | RTL Generation and Editing / RTL 生成与编辑 |

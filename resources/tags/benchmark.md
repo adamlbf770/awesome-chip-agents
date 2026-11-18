@@ -18,6 +18,7 @@
 | [RTL-BenchLS](../../resources/rtl-generation/rtl-benchls.md) | 2026-06 | RTL Generation and Editing / RTL 生成与编辑 |
 | [PDAgent-Bench](../../resources/physical-design/pdagent-bench.md) | 2026-06 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
 | [PostEDA-Bench](../../resources/physical-design/posteda-bench.md) | 2026-05 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
+| [DRAMBench / memory autoformalization](../../resources/verification-debugging/drambench.md) | 2026-04-23 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
 | [HWE-Bench · Bug repair](../../resources/verification-debugging/hwe-bench-bug-repair.md) | 2026-04 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
 | [HWE-Bench · Schematic design](../../resources/board-system-design/hwe-bench-schematic.md) | 2026-03 | Board, Packaging and System Design / 板级、封装与系统设计 |
 | [ChipBench](../../resources/rtl-generation/chipbench.md) | 2026-01 | RTL Generation and Editing / RTL 生成与编辑 |

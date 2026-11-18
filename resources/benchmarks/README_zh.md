@@ -4,12 +4,12 @@
 
 [首页](../../README_zh.md) · [English](README.md)
 
-共 29 项，先按主要研究方向分类，再按发布月份倒序排列。各条目共用已有详情，提供论文、仓库、标签及动态快照。通用数据集作为支撑资料收录；仅宣布评测计划的新闻保留在动态索引中。
+共 30 项，先按主要研究方向分类，再按发布月份倒序排列。各条目共用已有详情，提供论文、仓库、标签及动态快照。通用数据集作为支撑资料收录；仅宣布评测计划的新闻保留在动态索引中。
 
 | 方向 | 资源数 |
 | --- | ---: |
 | [RTL 生成与编辑](#rtl-generation) | 14 |
-| [验证、调试与规格推断](#verification-debugging) | 3 |
+| [验证、调试与规格推断](#verification-debugging) | 4 |
 | [物理设计与 EDA 流程](#physical-design) | 4 |
 | [模拟与 RF 电路](#analog-rf) | 2 |
 | [架构探索、HLS 与软硬件协同设计](#architecture-hls-codesign) | 5 |
@@ -93,6 +93,7 @@
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
+| **[DRAMBench / memory autoformalization](../../resources/verification-debugging/drambench.md)**<br>评测 Agent 将 DRAM 规格转为带时序 Petri 网的能力，提供协议行为与时序约束指标。 | [规格推断](../../resources/tags/specification.md) · [形式验证](../../resources/tags/formal.md) · [验证](../../resources/tags/verification.md) · [基准](../../resources/tags/benchmark.md) · [数据集](../../resources/tags/dataset.md)<br>论文 / 基准 / 数据集 | [论文](https://arxiv.org/abs/2605.00058) | — | — | — |
 | **[HWE-Bench · Bug repair](../../resources/verification-debugging/hwe-bench-bug-repair.md)**<br>面向仓库级硬件 Bug 修复的基准，包含来自六个开源硬件项目的 417 个 fail-to-pass 任务。 | [RTL](../../resources/tags/rtl.md) · [调试](../../resources/tags/debugging.md) · [仓库级任务](../../resources/tags/repository-level.md) · [基准](../../resources/tags/benchmark.md)<br>基准 / 数据集 | [论文](https://arxiv.org/abs/2604.14709) | [pku-liang/hwe-bench](https://github.com/pku-liang/hwe-bench) | 73 | 2026-11-11<br>采集 2026-11-15 |
 
 <a id="physical-design"></a>

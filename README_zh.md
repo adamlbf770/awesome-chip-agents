@@ -13,7 +13,7 @@
 | 方向 | 主要资源数 |
 | --- | ---: |
 | [RTL 生成与编辑](resources/rtl-generation/README_zh.md) | 25 |
-| [验证、调试与规格推断](resources/verification-debugging/README_zh.md) | 11 |
+| [验证、调试与规格推断](resources/verification-debugging/README_zh.md) | 15 |
 | [物理设计与 EDA 流程](resources/physical-design/README_zh.md) | 13 |
 | [模拟与 RF 电路](resources/analog-rf/README_zh.md) | 9 |
 | [架构探索、HLS 与软硬件协同设计](resources/architecture-hls-codesign/README_zh.md) | 17 |

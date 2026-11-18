@@ -9,13 +9,13 @@
 | [RTL](rtl.md) | 47 |
 | [Code generation](generation.md) | 15 |
 | [Code editing](editing.md) | 3 |
-| [Verification](verification.md) | 15 |
-| [Debugging](debugging.md) | 16 |
-| [Formal verification](formal.md) | 12 |
+| [Verification](verification.md) | 19 |
+| [Debugging](debugging.md) | 18 |
+| [Formal verification](formal.md) | 13 |
 | [Simulation](simulation.md) | 18 |
-| [Testbench](testbench.md) | 5 |
-| [Waveforms](waveform.md) | 9 |
-| [Specifications](specification.md) | 1 |
+| [Testbench](testbench.md) | 6 |
+| [Waveforms](waveform.md) | 10 |
+| [Specifications](specification.md) | 2 |
 | [Physical design](physical-design.md) | 16 |
 | [PPA / QoR](ppa.md) | 14 |
 | [DRC](drc.md) | 2 |
@@ -28,18 +28,18 @@
 | [RISC-V](risc-v.md) | 4 |
 | [FPGA](fpga.md) | 5 |
 | [Repository-level tasks](repository-level.md) | 4 |
-| [Multi-agent](multi-agent.md) | 20 |
-| [Tool use](tool-use.md) | 34 |
+| [Multi-agent](multi-agent.md) | 21 |
+| [Tool use](tool-use.md) | 36 |
 | [Memory / experience](memory.md) | 1 |
 | [Infrastructure](infrastructure.md) | 24 |
-| [Benchmark](benchmark.md) | 25 |
-| [Dataset](dataset.md) | 8 |
-| [Evaluation](evaluation.md) | 23 |
-| [Commercial platform](commercial.md) | 16 |
+| [Benchmark](benchmark.md) | 26 |
+| [Dataset](dataset.md) | 9 |
+| [Evaluation](evaluation.md) | 24 |
+| [Commercial platform](commercial.md) | 19 |
 | [Overview / tutorial](overview.md) | 4 |
 | [Board / PCB](board.md) | 2 |
 | [Packaging / 3D IC](packaging.md) | 2 |
 | [System design](system.md) | 3 |
-| [Vendor-reported](vendor-report.md) | 33 |
-| [Announcement](news.md) | 14 |
+| [Vendor-reported](vendor-report.md) | 37 |
+| [Announcement](news.md) | 15 |
 | [Talk / video](video.md) | 5 |

@@ -48,6 +48,7 @@
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
+| **[DRAMBench / memory autoformalization](../../resources/verification-debugging/drambench.md)**<br>评测 Agent 将 DRAM 规格转为带时序 Petri 网的能力，提供协议行为与时序约束指标。 | [规格推断](../../resources/tags/specification.md) · [形式验证](../../resources/tags/formal.md) · [验证](../../resources/tags/verification.md) · [基准](../../resources/tags/benchmark.md) · [数据集](../../resources/tags/dataset.md)<br>论文 / 基准 / 数据集 | [论文](https://arxiv.org/abs/2605.00058) | — | — | — |
 | **[HWE-Bench · Bug repair](../../resources/verification-debugging/hwe-bench-bug-repair.md)**<br>面向仓库级硬件 Bug 修复的基准，包含来自六个开源硬件项目的 417 个 fail-to-pass 任务。 | [RTL](../../resources/tags/rtl.md) · [调试](../../resources/tags/debugging.md) · [仓库级任务](../../resources/tags/repository-level.md) · [基准](../../resources/tags/benchmark.md)<br>基准 / 数据集 | [论文](https://arxiv.org/abs/2604.14709) | [pku-liang/hwe-bench](https://github.com/pku-liang/hwe-bench) | 73 | 2026-11-11<br>采集 2026-11-15 |
 
 ## 2026-03
@@ -116,8 +117,11 @@
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
+| **[Silogy / Viv](../../resources/verification-debugging/silogy-viv.md)**<br>使用 LLM Agent 结合代码、日志、规格与波形调查验证失败；能力为厂商报告。 | [调试](../../resources/tags/debugging.md) · [波形分析](../../resources/tags/waveform.md) · [工具调用](../../resources/tags/tool-use.md) · [商业平台](../../resources/tags/commercial.md) · [厂商报告](../../resources/tags/vendor-report.md)<br>工具 / 平台 | [原始来源](https://silogy.io/) | — | — | — |
+| **[MooresLabAI / MooreIP](../../resources/verification-debugging/mooreip.md)**<br>介绍 LLM 辅助、工程师审查的规格到 UVM 验证流程；部分产品与部署方式仍属路线图。 | [验证](../../resources/tags/verification.md) · [测试平台](../../resources/tags/testbench.md) · [工具调用](../../resources/tags/tool-use.md) · [商业平台](../../resources/tags/commercial.md) · [厂商报告](../../resources/tags/vendor-report.md)<br>工具 / 平台 | [原始来源](https://www.mooreslab.ai/families/mooreip) | — | — | — |
 | **[eda-mcp (LittleBlackCQ)](../../resources/agent-infrastructure/eda-mcp-littleblackcq.md)**<br>Docker 化 MCP 服务，打包 Yosys 综合、Icarus 仿真、Verilator lint 和 waveform-cli 查询。 | [基础设施](../../resources/tags/infrastructure.md) · [工具调用](../../resources/tags/tool-use.md) · [RTL](../../resources/tags/rtl.md) · [仿真](../../resources/tags/simulation.md) · [波形分析](../../resources/tags/waveform.md)<br>工具 / 平台 · 跨方向索引 | — | [LittleBlackCQ/eda-mcp](https://github.com/LittleBlackCQ/eda-mcp) | 2 | 2026-06-17<br>采集 2026-11-15 |
 | **[Cadence ChipStack](../../resources/rtl-generation/cadence-chipstack.md)**<br>面向 RTL 设计与验证的商业多 Agent 流程；功能由厂商描述。 | [商业平台](../../resources/tags/commercial.md) · [RTL](../../resources/tags/rtl.md) · [验证](../../resources/tags/verification.md) · [多 Agent](../../resources/tags/multi-agent.md) · [厂商报告](../../resources/tags/vendor-report.md)<br>工具 / 平台 · 跨方向索引 | [原始来源](https://www.cadence.com/en_US/home/ai/agentic-ai-super-agents.html) | — | — | — |
+| **[Bronco AI](../../resources/verification-debugging/bronco-ai.md)**<br>协调验证 Agent 进行测试平台搭建、回归分类、仿真调试与覆盖率闭合；能力为厂商报告。 | [验证](../../resources/tags/verification.md) · [调试](../../resources/tags/debugging.md) · [多 Agent](../../resources/tags/multi-agent.md) · [商业平台](../../resources/tags/commercial.md) · [厂商报告](../../resources/tags/vendor-report.md)<br>工具 / 平台 | [原始来源](https://www.bronco.ai/) | — | — | — |
 | **[Booley](../../resources/agent-infrastructure/booley.md)**<br>在 VS Code 中为编码 Agent 提供可复现的 RTL 工具流程、波形查询和确定性验收检查。 | [基础设施](../../resources/tags/infrastructure.md) · [RTL](../../resources/tags/rtl.md) · [工具调用](../../resources/tags/tool-use.md) · [验证](../../resources/tags/verification.md) · [波形分析](../../resources/tags/waveform.md)<br>开源项目 / 工具 / 平台 · 跨方向索引 | — | [boldaxolotl/booley](https://github.com/boldaxolotl/booley) | 27 | 2026-11-15<br>采集 2026-11-15 |
 | **[ai-chip-design-platform](../../resources/verification-debugging/ai-chip-design-platform.md)**<br>面向 RISC-V RTL 的多 Agent 验证平台，覆盖语义分析、测试平台生成、RTL/Spike 对照、覆盖率驱动测试、形式检查和可审计的验证证据。 | [RISC-V](../../resources/tags/risc-v.md) · [验证](../../resources/tags/verification.md) · [测试平台](../../resources/tags/testbench.md) · [形式验证](../../resources/tags/formal.md)<br>开源项目 | — | [HUNT-001/ai-chip-design-platform](https://github.com/HUNT-001/ai-chip-design-platform) | 12 | 2026-11-15<br>采集 2026-11-15 |
 
@@ -127,6 +131,7 @@
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
+| **[Bronco DVBench announcement](../../resources/verification-debugging/dvbench-announcement.md)**<br>DAC 2026 公告介绍计划中的生产级 DV 基准；公开任务集与评测工具尚待核实。 | [公告](../../resources/tags/news.md) · [验证](../../resources/tags/verification.md) · [评测](../../resources/tags/evaluation.md) · [厂商报告](../../resources/tags/vendor-report.md)<br>新闻 / 公告 | [原始来源](https://63dac.conference-program.com/presentation/?id=EF119&sess=sess234) | — | — | — |
 | **[Synopsys / NVIDIA workflows](../../resources/verification-debugging/synopsys-nvidia-workflows-2026.md)**<br>介绍协调测试计划、覆盖率收敛和调试的验证编排 Agent。 | [公告](../../resources/tags/news.md) · [验证](../../resources/tags/verification.md) · [多 Agent](../../resources/tags/multi-agent.md) · [厂商报告](../../resources/tags/vendor-report.md)<br>新闻 / 公告 | [原始来源](https://news.synopsys.com/2026-07-26-Synopsys-Showcases-Comprehensive-Autonomous-Engineering-Workflows-from-Silicon-to-Systems%2C-Developed-with-NVIDIA-Technology) | — | — | — |
 
 ## 日期待核实

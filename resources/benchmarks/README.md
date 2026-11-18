@@ -4,12 +4,12 @@
 
 [Home](../../README.md) · [简体中文](README_zh.md)
 
-29 resources, grouped by primary direction and newest publication month. Entries link to shared details with papers, repositories, tags, and activity snapshots. General datasets are included as supporting resources; announcements of evaluation plans remain in the news index.
+30 resources, grouped by primary direction and newest publication month. Entries link to shared details with papers, repositories, tags, and activity snapshots. General datasets are included as supporting resources; announcements of evaluation plans remain in the news index.
 
 | Direction | Resources |
 | --- | ---: |
 | [RTL Generation and Editing](#rtl-generation) | 14 |
-| [Verification, Debugging and Specifications](#verification-debugging) | 3 |
+| [Verification, Debugging and Specifications](#verification-debugging) | 4 |
 | [Physical Design and EDA Flows](#physical-design) | 4 |
 | [Analog and RF Design](#analog-rf) | 2 |
 | [Architecture, HLS and Hardware/Software Co-design](#architecture-hls-codesign) | 5 |
@@ -93,6 +93,7 @@
 
 | Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
 | --- | --- | --- | --- | ---: | --- |
+| **[DRAMBench / memory autoformalization](../../resources/verification-debugging/drambench.md)**<br>Evaluates agents translating DRAM specifications into timed Petri nets, with protocol-behavior and timing-constraint metrics. | [Specifications](../../resources/tags/specification.md) · [Formal verification](../../resources/tags/formal.md) · [Verification](../../resources/tags/verification.md) · [Benchmark](../../resources/tags/benchmark.md) · [Dataset](../../resources/tags/dataset.md)<br>Paper / Benchmark / dataset | [Paper](https://arxiv.org/abs/2605.00058) | — | — | — |
 | **[HWE-Bench · Bug repair](../../resources/verification-debugging/hwe-bench-bug-repair.md)**<br>Repository-level benchmark with 417 fail-to-pass bug-fix tasks from six open-source hardware projects. | [RTL](../../resources/tags/rtl.md) · [Debugging](../../resources/tags/debugging.md) · [Repository-level tasks](../../resources/tags/repository-level.md) · [Benchmark](../../resources/tags/benchmark.md)<br>Benchmark / dataset | [Paper](https://arxiv.org/abs/2604.14709) | [pku-liang/hwe-bench](https://github.com/pku-liang/hwe-bench) | 73 | 2026-11-11<br>Fetched 2026-11-15 |
 
 <a id="physical-design"></a>

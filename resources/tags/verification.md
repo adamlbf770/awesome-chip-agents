@@ -9,15 +9,19 @@
 | [CovR](../../resources/verification-debugging/covr.md) | 2026-09-15 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
 | [TraceWeave](../../resources/agent-infrastructure/traceweave.md) | 2026-08-27 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [Architect Labs / Redwood](../../resources/architecture-hls-codesign/redwood.md) | 2026-08-26 | Architecture, HLS and Hardware/Software Co-design / 架构探索、HLS 与软硬件协同设计 |
+| [Bronco DVBench announcement](../../resources/verification-debugging/dvbench-announcement.md) | 2026-07-28 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
 | [Synopsys / NVIDIA workflows](../../resources/verification-debugging/synopsys-nvidia-workflows-2026.md) | 2026-07-26 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
 | [HORIZON](../../resources/rtl-generation/horizon.md) | 2026-06 | RTL Generation and Editing / RTL 生成与编辑 |
+| [DRAMBench / memory autoformalization](../../resources/verification-debugging/drambench.md) | 2026-04-23 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
 | [ChipStack demo](../../resources/rtl-generation/chipstack-demo.md) | 2026-02-10 | RTL Generation and Editing / RTL 生成与编辑 |
 | [ChipStack early access](../../resources/rtl-generation/chipstack-early-access.md) | 2026-02 | RTL Generation and Editing / RTL 生成与编辑 |
 | [CorrectHDL](../../resources/rtl-generation/correcthdl.md) | 2025-11-20 | RTL Generation and Editing / RTL 生成与编辑 |
 | [OpenLLM-RTL](../../resources/rtl-generation/openllm-rtl.md) | 2025-03 | RTL Generation and Editing / RTL 生成与编辑 |
 | [AutoBench](../../resources/verification-debugging/autobench.md) | 2024-07 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
+| [MooresLabAI / MooreIP](../../resources/verification-debugging/mooreip.md) | Unknown / 待核实 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
 | [Formal workflow webinar](../../resources/verification-debugging/formal-workflow-webinar.md) | Unknown / 待核实 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
 | [DRCHealer](../../resources/physical-design/drchealer.md) | Unknown / 待核实 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
 | [Cadence ChipStack](../../resources/rtl-generation/cadence-chipstack.md) | Unknown / 待核实 | RTL Generation and Editing / RTL 生成与编辑 |
+| [Bronco AI](../../resources/verification-debugging/bronco-ai.md) | Unknown / 待核实 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
 | [Booley](../../resources/agent-infrastructure/booley.md) | Unknown / 待核实 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [ai-chip-design-platform](../../resources/verification-debugging/ai-chip-design-platform.md) | Unknown / 待核实 | Verification, Debugging and Specifications / 验证、调试与规格推断 |

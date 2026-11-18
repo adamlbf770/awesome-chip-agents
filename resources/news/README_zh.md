@@ -26,6 +26,7 @@
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
+| **[Bronco DVBench announcement](../../resources/verification-debugging/dvbench-announcement.md)**<br>DAC 2026 公告介绍计划中的生产级 DV 基准；公开任务集与评测工具尚待核实。 | [公告](../../resources/tags/news.md) · [验证](../../resources/tags/verification.md) · [评测](../../resources/tags/evaluation.md) · [厂商报告](../../resources/tags/vendor-report.md)<br>新闻 / 公告 | [原始来源](https://63dac.conference-program.com/presentation/?id=EF119&sess=sess234) | — | — | — |
 | **[Synopsys / AMD / Microsoft](../../resources/physical-design/synopsys-amd-microsoft-2026.md)**<br>宣布开放调试与实现流程的评估申请。 | [公告](../../resources/tags/news.md) · [调试](../../resources/tags/debugging.md) · [PPA / QoR](../../resources/tags/ppa.md) · [商业平台](../../resources/tags/commercial.md) · [厂商报告](../../resources/tags/vendor-report.md)<br>新闻 / 公告 | [原始来源](https://news.synopsys.com/2026-07-27-Synopsys-Advances-Agentic-AI-Chip-Design-with-AMD-and-Microsoft) | — | — | — |
 | **[Synopsys / NVIDIA workflows](../../resources/verification-debugging/synopsys-nvidia-workflows-2026.md)**<br>介绍协调测试计划、覆盖率收敛和调试的验证编排 Agent。 | [公告](../../resources/tags/news.md) · [验证](../../resources/tags/verification.md) · [多 Agent](../../resources/tags/multi-agent.md) · [厂商报告](../../resources/tags/vendor-report.md)<br>新闻 / 公告 | [原始来源](https://news.synopsys.com/2026-07-26-Synopsys-Showcases-Comprehensive-Autonomous-Engineering-Workflows-from-Silicon-to-Systems%2C-Developed-with-NVIDIA-Technology) | — | — | — |
 

@@ -15,10 +15,13 @@
 | [ChipStack early access](../../resources/rtl-generation/chipstack-early-access.md) | 2026-02 | RTL Generation and Editing / RTL 生成与编辑 |
 | [Synopsys AgentEngineer / Autopilot](../../resources/agent-infrastructure/synopsys-agentengineer.md) | 2026 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [Synopsys.ai brochure](../../resources/agent-infrastructure/synopsys-ai-brochure.md) | 2025 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
+| [Silogy / Viv](../../resources/verification-debugging/silogy-viv.md) | Unknown / 待核实 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
 | [Silimate](../../resources/rtl-generation/silimate.md) | Unknown / 待核实 | RTL Generation and Editing / RTL 生成与编辑 |
+| [MooresLabAI / MooreIP](../../resources/verification-debugging/mooreip.md) | Unknown / 待核实 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
 | [Chipmind](../../resources/agent-infrastructure/chipmind.md) | Unknown / 待核实 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [Cadence ViraStack](../../resources/analog-rf/cadence-virastack.md) | Unknown / 待核实 | Analog and RF Design / 模拟与 RF 电路 |
 | [Cadence SystemStack](../../resources/board-system-design/cadence-systemstack.md) | Unknown / 待核实 | Board, Packaging and System Design / 板级、封装与系统设计 |
 | [Cadence InnoStack](../../resources/physical-design/cadence-innostack.md) | Unknown / 待核实 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
 | [Cadence ChipStack](../../resources/rtl-generation/cadence-chipstack.md) | Unknown / 待核实 | RTL Generation and Editing / RTL 生成与编辑 |
 | [Cadence AuraStack](../../resources/board-system-design/cadence-aurastack.md) | Unknown / 待核实 | Board, Packaging and System Design / 板级、封装与系统设计 |
+| [Bronco AI](../../resources/verification-debugging/bronco-ai.md) | Unknown / 待核实 | Verification, Debugging and Specifications / 验证、调试与规格推断 |

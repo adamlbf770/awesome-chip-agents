@@ -15,6 +15,7 @@
 | [AgentEngineer / Autopilot announcement](../../resources/agent-infrastructure/agentengineer-autopilot-announcement.md) | 2026-09-28 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [ChipStack RTL / PPA announcement](../../resources/rtl-generation/chipstack-rtl-announcement.md) | 2026-09-22 | RTL Generation and Editing / RTL 生成与编辑 |
 | [Architect Labs / Redwood](../../resources/architecture-hls-codesign/redwood.md) | 2026-08-26 | Architecture, HLS and Hardware/Software Co-design / 架构探索、HLS 与软硬件协同设计 |
+| [Bronco DVBench announcement](../../resources/verification-debugging/dvbench-announcement.md) | 2026-07-28 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
 | [Synopsys / AMD / Microsoft](../../resources/physical-design/synopsys-amd-microsoft-2026.md) | 2026-07-27 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
 | [Synopsys / NVIDIA workflows](../../resources/verification-debugging/synopsys-nvidia-workflows-2026.md) | 2026-07-26 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
 | [InnoStack demo](../../resources/physical-design/innostack-demo.md) | 2026-07-22 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
@@ -30,7 +31,9 @@
 | [AgentEngineer architecture](../../resources/agent-infrastructure/agentengineer-architecture.md) | 2026 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [AlphaEvolve chip-design case](../../resources/rtl-generation/alphaevolve-chip-case.md) | 2025-05-14 | RTL Generation and Editing / RTL 生成与编辑 |
 | [Synopsys.ai brochure](../../resources/agent-infrastructure/synopsys-ai-brochure.md) | 2025 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
+| [Silogy / Viv](../../resources/verification-debugging/silogy-viv.md) | Unknown / 待核实 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
 | [Silimate](../../resources/rtl-generation/silimate.md) | Unknown / 待核实 | RTL Generation and Editing / RTL 生成与编辑 |
+| [MooresLabAI / MooreIP](../../resources/verification-debugging/mooreip.md) | Unknown / 待核实 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
 | [Formal workflow webinar](../../resources/verification-debugging/formal-workflow-webinar.md) | Unknown / 待核实 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
 | [Chipmind](../../resources/agent-infrastructure/chipmind.md) | Unknown / 待核实 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [Cadence ViraStack](../../resources/analog-rf/cadence-virastack.md) | Unknown / 待核实 | Analog and RF Design / 模拟与 RF 电路 |
@@ -38,4 +41,5 @@
 | [Cadence InnoStack](../../resources/physical-design/cadence-innostack.md) | Unknown / 待核实 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
 | [Cadence ChipStack](../../resources/rtl-generation/cadence-chipstack.md) | Unknown / 待核实 | RTL Generation and Editing / RTL 生成与编辑 |
 | [Cadence AuraStack](../../resources/board-system-design/cadence-aurastack.md) | Unknown / 待核实 | Board, Packaging and System Design / 板级、封装与系统设计 |
+| [Bronco AI](../../resources/verification-debugging/bronco-ai.md) | Unknown / 待核实 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
 | [AgentEngineer webinar](../../resources/agent-infrastructure/agentengineer-webinar.md) | Unknown / 待核实 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
