@@ -3,6 +3,14 @@
 <!-- metadata
 {
   "id": "analog-canvas",
+  "download_sources": [
+    {
+      "id": "mcp-release-assets",
+      "provider": "github-releases",
+      "repository": "cascode-ai/analog-canvas",
+      "tag_prefix": "mcp-"
+    }
+  ],
   "title": "Analog Canvas",
   "name": "Analog Canvas",
   "direction": "agent-infrastructure",
@@ -61,6 +69,16 @@
 Stars and push times are GitHub API snapshots. A push may update any branch and does not establish a functional release or research quality.
 
 Stars 与推送时间来自 GitHub API 快照；推送可能涉及任一分支，不代表发布了新功能，也不代表研究质量。
+
+## Download metrics / 下载指标
+
+| Source / 来源 | Downloads / 下载量 | Scope / 范围 | Fetched (UTC) / 采集 | Status / 状态 |
+| --- | ---: | --- | --- | --- |
+| [github-releases: cascode-ai/analog-canvas](https://github.com/cascode-ai/analog-canvas/releases) | — | Available assets / 当前可用附件; tag prefix: mcp- | — | Unavailable / 暂无数据; refresh failed / 刷新失败 |
+
+Package and release-asset download counts use different scopes; they are not unique users, verified MCP installations, or website link clicks.
+
+包下载量与 Release 附件下载量采用不同口径，不等于独立用户、已核实的 MCP 安装量或本站链接点击量。
 
 ## Related resources / 相关资源
 

@@ -18,3 +18,5 @@ jobs:
       - run: python3 scripts/catalog.py --check
       - run: python3 -m unittest discover -s tests
       - run: git diff --check
+  website:
+    uses: ./.github/workflows/build-website.yml

@@ -3,6 +3,14 @@
 <!-- metadata
 {
   "id": "wavekit-mcp",
+  "download_sources": [
+    {
+      "id": "pypi-month",
+      "provider": "pypistats",
+      "package": "wavekit-mcp",
+      "period": "month"
+    }
+  ],
   "title": "wavekit-mcp",
   "name": "wavekit-mcp",
   "direction": "agent-infrastructure",
@@ -69,6 +77,16 @@
 Stars and push times are GitHub API snapshots. A push may update any branch and does not establish a functional release or research quality.
 
 Stars 与推送时间来自 GitHub API 快照；推送可能涉及任一分支，不代表发布了新功能，也不代表研究质量。
+
+## Download metrics / 下载指标
+
+| Source / 来源 | Downloads / 下载量 | Scope / 范围 | Fetched (UTC) / 采集 | Status / 状态 |
+| --- | ---: | --- | --- | --- |
+| [pypistats: wavekit-mcp](https://pypistats.org/packages/wavekit-mcp) | 85 | PyPI Stats: last month | 2026-11-18T02:39:13Z | Snapshot / 快照 |
+
+Package and release-asset download counts use different scopes; they are not unique users, verified MCP installations, or website link clicks.
+
+包下载量与 Release 附件下载量采用不同口径，不等于独立用户、已核实的 MCP 安装量或本站链接点击量。
 
 ## Related resources / 相关资源
 

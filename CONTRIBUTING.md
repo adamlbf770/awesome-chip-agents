@@ -61,6 +61,10 @@ Review both language indexes together. Include a short PR summary and note that 
 
 ## Repository Metadata
 
+The website reads the same resources. Frontend development, deployment, click analytics, and download metadata are documented in the [website guide](docs/website.md). Resource contributions do not require Node.js.
+
+网站读取同一份资源文件。前端开发、部署、点击统计和下载来源配置见[网站指南](docs/website.md)；普通资源贡献无需 Node.js。
+
 仓库指标采用 [GitHub repository REST API](https://docs.github.com/en/rest/repos/repos#get-a-repository) 的 `stargazers_count` 与 `pushed_at`；后者是仓库最近推送时间，可能涉及任一分支，并非最近发布版本或默认分支提交时间。所有时间为 UTC。Stars 和推送频率仅辅助了解关注度与活动，不代表研究质量。
 
 Repository statistics use `stargazers_count` and `pushed_at` from the linked API. The push timestamp can reflect any branch and is distinct from a release or the latest default-branch commit. All timestamps use UTC. These indicators describe attention and activity, not research quality.

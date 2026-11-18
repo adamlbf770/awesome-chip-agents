@@ -1,0 +1,56 @@
+name: Build website
+
+on:
+  workflow_call:
+    inputs:
+      ref:
+        type: string
+        default: ''
+      upload_pages:
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.ref }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: site/package-lock.json
+      - name: Validate shared content
+        run: |
+          python3 scripts/catalog.py --check
+          python3 -m unittest discover -s tests
+          git diff --check
+      - run: npm ci
+        working-directory: site
+      - name: Configure website URL
+        run: node scripts/pages-env.mjs
+        working-directory: site
+        env:
+          SITE_URL: ${{ vars.SITE_URL }}
+      - name: Build and verify bilingual pages
+        run: |
+          npm run build
+          npm test
+        working-directory: site
+        env:
+          VITE_UMAMI_SCRIPT_URL: ${{ vars.VITE_UMAMI_SCRIPT_URL }}
+          VITE_UMAMI_WEBSITE_ID: ${{ vars.VITE_UMAMI_WEBSITE_ID }}
+          VITE_UMAMI_DOMAINS: ${{ vars.VITE_UMAMI_DOMAINS }}
+      - uses: actions/upload-pages-artifact@v3
+        if: inputs.upload_pages
+        with:
+          path: site/dist

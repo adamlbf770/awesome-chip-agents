@@ -2,7 +2,7 @@
 
 # Awesome Chip Agents
 
-[简体中文](README_zh.md)
+[简体中文](README_zh.md) · [Website guide](docs/website.md)
 
 A curated catalog of **LLM agents for chip design**. Browse by direction, then publication month; each resource combines its paper, code, tags, and bilingual descriptions.
 

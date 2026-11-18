@@ -2,7 +2,7 @@
 
 # Awesome Chip Agents
 
-[English](README.md)
+[English](README.md) · [网站使用与开发指南](docs/website.md)
 
 面向**芯片设计 LLM Agent** 的精选资料库。先按方向查找，再按发布月份浏览；每项资源集中提供论文、代码、多个标签和中英文简介。
 

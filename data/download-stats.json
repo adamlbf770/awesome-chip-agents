@@ -1,0 +1,26 @@
+{
+  "analog-canvas:mcp-release-assets": {
+    "source": {
+      "id": "mcp-release-assets",
+      "provider": "github-releases",
+      "repository": "cascode-ai/analog-canvas",
+      "tag_prefix": "mcp-"
+    },
+    "last_attempt_at": "2026-11-18T02:52:19Z",
+    "fetch_error": "Network request failed"
+  },
+  "wavekit-mcp:pypi-month": {
+    "source": {
+      "id": "pypi-month",
+      "provider": "pypistats",
+      "package": "wavekit-mcp",
+      "period": "month"
+    },
+    "value": 85,
+    "period": "month",
+    "url": "https://pypistats.org/api/packages/wavekit-mcp/recent",
+    "fetched_at": "2026-11-18T02:39:13Z",
+    "last_attempt_at": "2026-11-18T02:39:13Z",
+    "fetch_error": null
+  }
+}

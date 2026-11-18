@@ -78,6 +78,7 @@ def load_catalog(root=ROOT):
             parsed = urlparse(link["url"])
             if parsed.scheme != "https" or not parsed.netloc or link["kind"] not in ("paper", "repository", "source"):
                 raise ValueError(f"Invalid source link: {rid}")
+        validate_download_sources(meta)
         if not MANAGED.search(body) or "\n## English\n" not in body or "\n## 简体中文\n" not in body:
             raise ValueError(f"Missing rendered block or bilingual descriptions: {rid}")
         if any(d not in taxonomy["directions"] or d == direction for d in meta["also_in"]):
@@ -101,6 +102,44 @@ def repositories(meta):
             repo = match[1].removesuffix(".git")
             found.setdefault(repo.lower(), repo)
     return list(found.values())
+
+
+def validate_download_sources(meta):
+    """Require explicit identities and supported reporting scopes."""
+    sources = meta.get("download_sources", [])
+    if not isinstance(sources, list):
+        raise ValueError("Invalid download sources: " + meta["id"])
+    seen = set()
+    for source in sources:
+        if not isinstance(source, dict):
+            raise ValueError("Invalid download source: " + meta["id"])
+        sid = source.get("id", "")
+        provider = source.get("provider")
+        if not isinstance(sid, str) or not SLUG.fullmatch(sid) or sid in seen:
+            raise ValueError("Invalid or duplicate download source id: " + meta["id"])
+        seen.add(sid)
+        allowed = {"id", "provider"}
+        if provider in ("npm", "pypistats"):
+            allowed.update(("package", "period"))
+            package = source.get("package", "")
+            pattern = r"(?:@[a-z0-9._~-]+/)?[a-z0-9][a-z0-9._~-]*" if provider == "npm" else r"[A-Za-z0-9][A-Za-z0-9._-]*"
+            if not isinstance(package, str) or not re.fullmatch(pattern, package):
+                raise ValueError("Invalid package identity: " + meta["id"])
+            periods = ("last-week", "last-month") if provider == "npm" else ("day", "week", "month")
+            if source.get("period", periods[-1]) not in periods:
+                raise ValueError("Invalid download reporting period: " + meta["id"])
+        elif provider == "github-releases":
+            allowed.update(("repository", "tag_prefix", "asset_pattern"))
+            repository = source.get("repository")
+            if not isinstance(repository, str) or repository.lower() not in [repo.lower() for repo in repositories(meta)]:
+                raise ValueError("Download repository must be linked by the resource: " + meta["id"])
+            for key in ("tag_prefix", "asset_pattern"):
+                if key in source and (not isinstance(source[key], str) or not source[key].strip()):
+                    raise ValueError("Invalid release selector: " + meta["id"])
+        else:
+            raise ValueError("Unsupported download provider: " + meta["id"])
+        if set(source) - allowed:
+            raise ValueError("Unknown download source fields: " + meta["id"])
 
 
 def refresh_stats(records, cache, fetch=None, now=None):
@@ -276,7 +315,7 @@ def grouped(records, taxonomy, cache, lang, prefix, cross_ids=None, heading_leve
     return "\n\n".join(blocks)
 
 
-def render_detail(record, taxonomy, cache, by_id):
+def render_detail(record, taxonomy, cache, by_id, downloads=None):
     """更新资源文件中的自动生成详情区块，并保留编辑内容。"""
     m = record["meta"]
     nav = "[English index](../../README.md) · [中文索引](../../README_zh.md) · [Direction](README.md) · [本方向](README_zh.md) · [Tags / 标签](../tags/README.md)"
@@ -315,6 +354,42 @@ def render_detail(record, taxonomy, cache, by_id):
                       "", "Stars 与推送时间来自 GitHub API 快照；推送可能涉及任一分支，不代表发布了新功能，也不代表研究质量。"])
     else:
         block.extend(["", "**Repository / 仓库：** No related public repository link recorded / 暂未记录相关公开仓库链接。"])
+    if m.get("download_sources"):
+        block.extend(["", "## Download metrics / 下载指标", "",
+                      "| Source / 来源 | Downloads / 下载量 | Scope / 范围 | Fetched (UTC) / 采集 | Status / 状态 |",
+                      "| --- | ---: | --- | --- | --- |"])
+        for source in m["download_sources"]:
+            snapshot = (downloads or {}).get(m["id"] + ":" + source["id"], {})
+            s = snapshot if snapshot.get("source") == source else {}
+            provider = source["provider"]
+            identity = source.get("package") or source.get("repository")
+            if provider == "npm":
+                url = "https://www.npmjs.com/package/" + identity
+                scope = source.get("period", "last-month")
+            elif provider == "pypistats":
+                url = "https://pypistats.org/packages/" + identity
+                scope = "PyPI Stats: last " + source.get("period", "month")
+            else:
+                url = "https://github.com/" + identity + "/releases"
+                scope = "Available assets / 当前可用附件"
+                if source.get("tag_prefix"):
+                    scope += "; tag prefix: " + source["tag_prefix"]
+                if source.get("asset_pattern"):
+                    scope += "; assets: " + source["asset_pattern"]
+            if s.get("start") and s.get("end"):
+                scope = s["start"] + " – " + s["end"]
+            status = "Snapshot / 快照" if "value" in s else "Unavailable / 暂无数据"
+            if s.get("fetch_error"):
+                status += "; refresh failed / 刷新失败"
+            block.append(table_row([
+                f"[{provider}: {identity}]({url})",
+                f"{s['value']:,}" if "value" in s else "—", scope,
+                s.get("fetched_at", "—"), status,
+            ]))
+        block.extend(["",
+                      "Package and release-asset download counts use different scopes; they are not unique users, verified MCP installations, or website link clicks.",
+                      "",
+                      "包下载量与 Release 附件下载量采用不同口径，不等于独立用户、已核实的 MCP 安装量或本站链接点击量。"])
     if m["related"]:
         block.extend(["", "## Related resources / 相关资源", ""])
         for rid in m["related"]:
@@ -325,20 +400,21 @@ def render_detail(record, taxonomy, cache, by_id):
     return MANAGED.sub(lambda _: replacement, record["body"], count=1)
 
 
-def render_all(taxonomy, records, cache):
+def render_all(taxonomy, records, cache, downloads=None):
     """生成双语首页、分类索引、标签索引和资源详情文件内容。"""
     outputs = {}
     by_id = {r["meta"]["id"]: r for r in records}
     generated = "<!-- Generated by scripts/catalog.py; edit resource metadata and descriptions. -->\n\n"
     for record in records:
-        outputs[record["path"]] = render_detail(record, taxonomy, cache, by_id)
+        outputs[record["path"]] = render_detail(record, taxonomy, cache, by_id, downloads)
     for lang, filename in [(0, "README.md"), (1, "README_zh.md")]:
         other = "README_zh.md" if not lang else "README.md"
         language = "简体中文" if not lang else "English"
         intro = text_pair(
             "A curated catalog of **LLM agents for chip design**. Browse by direction, then publication month; each resource combines its paper, code, tags, and bilingual descriptions.",
             "面向**芯片设计 LLM Agent** 的精选资料库。先按方向查找，再按发布月份浏览；每项资源集中提供论文、代码、多个标签和中英文简介。", lang)
-        home = ["# Awesome Chip Agents", f"[{language}]({other})", intro,
+        home = ["# Awesome Chip Agents", f"[{language}]({other}) · " + text_pair(
+                    "[Website guide](docs/website.md)", "[网站使用与开发指南](docs/website.md)", lang), intro,
                 "## " + text_pair("Browse by Direction", "按方向查找", lang),
                 text_pair("Each record has one primary direction. Cross-references link to the same detail file.", "每项资源只有一个主要方向；跨方向条目链接到同一详情文件。", lang)]
         home.extend(["| " + text_pair("Direction | Primary resources", "方向 | 主要资源数", lang) + " |", "| --- | ---: |"])
@@ -450,7 +526,9 @@ def main():
         stats_path.write_text(json.dumps(cache,ensure_ascii=False,indent=2)+"\n")
         for failure in failures:
             print(f"Warning: {failure}", file=sys.stderr)
-    outputs = render_all(taxonomy,records,cache)
+    download_path = ROOT / "data/download-stats.json"
+    downloads = json.loads(download_path.read_text()) if download_path.exists() else {}
+    outputs = render_all(taxonomy,records,cache,downloads)
     stale = []
     for path, content in outputs.items():
         if not path.exists() or path.read_text() != content:
