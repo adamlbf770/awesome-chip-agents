@@ -10,6 +10,7 @@
 | [TraceWeave](../../resources/agent-infrastructure/traceweave.md) | 2026-08-27 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [wave-mcp](../../resources/agent-infrastructure/wave-mcp.md) | 2026-08 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [WaveformQA](../../resources/verification-debugging/waveformqa.md) | 2026-07 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
+| [wavekit-mcp](../../resources/agent-infrastructure/wavekit-mcp.md) | 2026-03-12 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [waveform-mcp](../../resources/agent-infrastructure/waveform-mcp.md) | 2026-03-11 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [VerilogCoder](../../resources/rtl-generation/verilogcoder.md) | 2024-08 | RTL Generation and Editing / RTL 生成与编辑 |
 | [eda-mcp (LittleBlackCQ)](../../resources/agent-infrastructure/eda-mcp-littleblackcq.md) | Unknown / 待核实 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |

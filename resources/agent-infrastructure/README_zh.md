@@ -42,6 +42,7 @@
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
+| **[wavekit-mcp](../../resources/agent-infrastructure/wavekit-mcp.md)**<br>通过持久化 MCP Python 环境调用 wavekit，查询和分析 VCD、FST 与 FSDB 波形。 | [基础设施](../../resources/tags/infrastructure.md) · [工具调用](../../resources/tags/tool-use.md) · [波形分析](../../resources/tags/waveform.md) · [调试](../../resources/tags/debugging.md)<br>开源项目 / 工具 / 平台 | — | [cxzzzz/wavekit-mcp](https://github.com/cxzzzz/wavekit-mcp) | 11 | 2026-07-27<br>采集 2026-11-17 |
 | **[waveform-mcp](../../resources/agent-infrastructure/waveform-mcp.md)**<br>基于 Rust 与 wellen 的 MCP 服务和 CLI，用于查询 VCD/FST 层次、信号元数据、取值和事件。 | [基础设施](../../resources/tags/infrastructure.md) · [工具调用](../../resources/tags/tool-use.md) · [波形分析](../../resources/tags/waveform.md) · [调试](../../resources/tags/debugging.md)<br>开源项目 / 工具 / 平台 | — | [jiegec/waveform-mcp](https://github.com/jiegec/waveform-mcp) | 49 | 2026-11-10<br>采集 2026-11-15 |
 | **[FluxEDA](../../resources/agent-infrastructure/fluxeda.md)**<br>为可复现的长时运行 Agentic EDA 流程提供有状态执行和工具集成基础设施。 | [基础设施](../../resources/tags/infrastructure.md) · [EDA 流程](../../resources/tags/eda-flow.md) · [工具调用](../../resources/tags/tool-use.md)<br>论文 | [论文](https://arxiv.org/abs/2603.25243) | — | — | — |
 

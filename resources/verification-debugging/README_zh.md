@@ -53,6 +53,7 @@
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
+| **[wavekit-mcp](../../resources/agent-infrastructure/wavekit-mcp.md)**<br>通过持久化 MCP Python 环境调用 wavekit，查询和分析 VCD、FST 与 FSDB 波形。 | [基础设施](../../resources/tags/infrastructure.md) · [工具调用](../../resources/tags/tool-use.md) · [波形分析](../../resources/tags/waveform.md) · [调试](../../resources/tags/debugging.md)<br>开源项目 / 工具 / 平台 · 跨方向索引 | — | [cxzzzz/wavekit-mcp](https://github.com/cxzzzz/wavekit-mcp) | 11 | 2026-07-27<br>采集 2026-11-17 |
 | **[waveform-mcp](../../resources/agent-infrastructure/waveform-mcp.md)**<br>基于 Rust 与 wellen 的 MCP 服务和 CLI，用于查询 VCD/FST 层次、信号元数据、取值和事件。 | [基础设施](../../resources/tags/infrastructure.md) · [工具调用](../../resources/tags/tool-use.md) · [波形分析](../../resources/tags/waveform.md) · [调试](../../resources/tags/debugging.md)<br>开源项目 / 工具 / 平台 · 跨方向索引 | — | [jiegec/waveform-mcp](https://github.com/jiegec/waveform-mcp) | 49 | 2026-11-10<br>采集 2026-11-15 |
 | **[SpecLoop](../../resources/verification-debugging/specloop.md)**<br>通过 Agent 闭环从 RTL 推断规格说明，并利用形式验证反馈持续精化。 | [RTL](../../resources/tags/rtl.md) · [规格推断](../../resources/tags/specification.md) · [形式验证](../../resources/tags/formal.md)<br>论文 | [论文](https://arxiv.org/abs/2603.02895) | — | — | — |
 

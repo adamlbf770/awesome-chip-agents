@@ -19,6 +19,7 @@
 | [Razavi-Bench](../../resources/analog-rf/razavi-bench.md) | 2026-07-02 | Analog and RF Design / 模拟与 RF 电路 |
 | [hw-agent-tooling](../../resources/agent-infrastructure/hw-agent-tooling.md) | 2026-06-16 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [ltspice-mcp](../../resources/agent-infrastructure/ltspice-mcp.md) | 2026-04-06 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
+| [wavekit-mcp](../../resources/agent-infrastructure/wavekit-mcp.md) | 2026-03-12 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [waveform-mcp](../../resources/agent-infrastructure/waveform-mcp.md) | 2026-03-11 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [FluxEDA](../../resources/agent-infrastructure/fluxeda.md) | 2026-03 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [AnalogAgent](../../resources/analog-rf/analogagent.md) | 2026-03 | Analog and RF Design / 模拟与 RF 电路 |

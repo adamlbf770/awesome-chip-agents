@@ -15,6 +15,7 @@
 | [hw-agent-tooling](../../resources/agent-infrastructure/hw-agent-tooling.md) | 2026-06-16 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [CHIA](../../resources/architecture-hls-codesign/chia.md) | 2026-06 | Architecture, HLS and Hardware/Software Co-design / 架构探索、HLS 与软硬件协同设计 |
 | [ltspice-mcp](../../resources/agent-infrastructure/ltspice-mcp.md) | 2026-04-06 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
+| [wavekit-mcp](../../resources/agent-infrastructure/wavekit-mcp.md) | 2026-03-12 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [waveform-mcp](../../resources/agent-infrastructure/waveform-mcp.md) | 2026-03-11 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [FluxEDA](../../resources/agent-infrastructure/fluxeda.md) | 2026-03 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [OpenROAD MCP](../../resources/agent-infrastructure/openroad-mcp.md) | 2026-02-19 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |

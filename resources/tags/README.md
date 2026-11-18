@@ -10,11 +10,11 @@
 | [Code generation](generation.md) | 15 |
 | [Code editing](editing.md) | 3 |
 | [Verification](verification.md) | 14 |
-| [Debugging](debugging.md) | 15 |
+| [Debugging](debugging.md) | 16 |
 | [Formal verification](formal.md) | 12 |
 | [Simulation](simulation.md) | 18 |
 | [Testbench](testbench.md) | 5 |
-| [Waveforms](waveform.md) | 8 |
+| [Waveforms](waveform.md) | 9 |
 | [Specifications](specification.md) | 1 |
 | [Physical design](physical-design.md) | 16 |
 | [PPA / QoR](ppa.md) | 14 |
@@ -29,9 +29,9 @@
 | [FPGA](fpga.md) | 3 |
 | [Repository-level tasks](repository-level.md) | 4 |
 | [Multi-agent](multi-agent.md) | 18 |
-| [Tool use](tool-use.md) | 32 |
+| [Tool use](tool-use.md) | 33 |
 | [Memory / experience](memory.md) | 1 |
-| [Infrastructure](infrastructure.md) | 22 |
+| [Infrastructure](infrastructure.md) | 23 |
 | [Benchmark](benchmark.md) | 25 |
 | [Dataset](dataset.md) | 8 |
 | [Evaluation](evaluation.md) | 23 |
