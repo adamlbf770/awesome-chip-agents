@@ -1,0 +1,52 @@
+name: Resource suggestion or correction | 推荐或更正资源
+description: Suggest a relevant paper, project, benchmark, or a correction with sources.
+title: "[Resource] "
+labels: ["resource suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **English:** Please link the original paper, author repository, official project page, benchmark, or announcement. A concise note is enough; maintainers can help with formatting and translation.
+
+        **简体中文：** 请提供原始论文、作者仓库、官方项目页、基准或公告链接。简要说明即可，维护者可以协助整理格式和翻译。
+  - type: input
+    id: title
+    attributes:
+      label: Resource title / 资源名称
+      placeholder: Original title / 原始标题
+    validations:
+      required: true
+  - type: input
+    id: source_url
+    attributes:
+      label: Primary source URL / 原始来源链接
+      description: Prefer a paper, official project page, or author-maintained repository. / 优先提供论文、官方项目页或作者维护的仓库。
+      placeholder: https://...
+    validations:
+      required: true
+  - type: dropdown
+    id: suggestion_type
+    attributes:
+      label: What would you like to do? / 建议类型
+      options:
+        - Add a resource / 推荐新资源
+        - Correct or update an entry / 更正或更新条目
+        - Improve a translation or description / 改进翻译或简介
+    validations:
+      required: true
+  - type: textarea
+    id: relevance
+    attributes:
+      label: Relevance to chip-design agents / 与芯片设计 Agent 的关联
+      description: What task, direction, or evaluation does this resource support? / 请说明资源涉及的任务、方向或评测。
+      placeholder: Explain briefly and include evidence links if available. / 简要说明，并尽量附上依据链接。
+    validations:
+      required: true
+  - type: input
+    id: date
+    attributes:
+      label: Publication or announcement date, if known / 发表或公告日期（如已知）
+      description: Year or month is useful; do not guess. / 年份或月份即可；不确定时请留空。
+      placeholder: YYYY or YYYY-MM
+    validations:
+      required: false

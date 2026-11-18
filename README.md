@@ -2,9 +2,11 @@
 
 # Awesome Chip Agents
 
-[简体中文](README_zh.md) · [Website guide](docs/website.md)
+[Browse the bilingual website](https://fengchuimailang.github.io/awesome-chip-agents/) · [Contribute a resource](https://github.com/fengchuimailang/awesome-chip-agents/issues/new?template=resource-suggestion.yml) · [Join discussions](https://github.com/fengchuimailang/awesome-chip-agents/discussions) · [简体中文](README_zh.md)
 
 A curated catalog of **LLM agents for chip design**. Browse by direction, then publication month; each resource combines its paper, code, tags, and bilingual descriptions.
+
+If this catalog helps your work, [star the repository](https://github.com/fengchuimailang/awesome-chip-agents) to help other chip-design researchers find it.
 
 ## Browse by Direction
 
@@ -39,7 +41,7 @@ Resources cover RTL generation/editing, verification/debugging, physical design,
 
 ## Contributing
 
-See [contribution guidelines and the resource template](CONTRIBUTING.md). Keep English and Simplified Chinese content aligned.
+See the [contribution guide](CONTRIBUTING.md), browse [good first issues](https://github.com/fengchuimailang/awesome-chip-agents/labels/good%20first%20issue), or [suggest a resource](https://github.com/fengchuimailang/awesome-chip-agents/issues/new?template=resource-suggestion.yml). Keep English and Simplified Chinese content aligned.
 
 ## License
 

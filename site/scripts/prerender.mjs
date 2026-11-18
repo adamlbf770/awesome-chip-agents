@@ -14,12 +14,19 @@ const urls = [];
 async function writePage(page, destination) {
   const output = await render(page);
   const canonical = absolute(output.path);
+  const socialImage = site ? absolute(base + 'social-preview.png') : base + 'social-preview.png';
   const other = { ...page, locale: page.locale === 'en' ? 'zh' : 'en' };
   const alternate = absolute(route(other));
   const head = '<meta name="description" content="' + escape(output.description) + '">' +
     '<meta property="og:title" content="' + escape(output.title) + '">' +
     '<meta property="og:description" content="' + escape(output.description) + '">' +
     '<meta property="og:type" content="website">' +
+    '<meta property="og:image" content="' + escape(socialImage) + '">' +
+    '<meta property="og:image:type" content="image/png">' +
+    '<meta property="og:image:width" content="1200">' +
+    '<meta property="og:image:height" content="630">' +
+    '<meta name="twitter:card" content="summary_large_image">' +
+    '<meta name="twitter:image" content="' + escape(socialImage) + '">' +
     (site && page.kind !== 'missing' ? '<link rel="canonical" href="' + escape(canonical) + '">' +
       '<meta property="og:url" content="' + escape(canonical) + '">' +
       '<link rel="alternate" hreflang="' + (page.locale === 'en' ? 'zh-CN' : 'en') + '" href="' + escape(alternate) + '">' : '') +

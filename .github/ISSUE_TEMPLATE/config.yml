@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Browse the bilingual website / 浏览双语网站
+    url: https://fengchuimailang.github.io/awesome-chip-agents/
+    about: Explore the catalog and its topic indexes. / 浏览资源目录和主题索引。
+  - name: Ask a question / 提问与交流
+    url: https://github.com/fengchuimailang/awesome-chip-agents/discussions
+    about: Discuss the catalog, suggest improvements, or ask for help. / 交流目录建设、提出改进建议或寻求帮助。
+  - name: Read contribution guidelines / 阅读贡献指南
+    url: https://github.com/fengchuimailang/awesome-chip-agents/blob/main/CONTRIBUTING.md
+    about: Review scope, metadata, and validation steps. / 了解收录范围、元数据规范和校验步骤。

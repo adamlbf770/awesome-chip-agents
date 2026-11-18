@@ -413,8 +413,13 @@ def render_all(taxonomy, records, cache, downloads=None):
         intro = text_pair(
             "A curated catalog of **LLM agents for chip design**. Browse by direction, then publication month; each resource combines its paper, code, tags, and bilingual descriptions.",
             "面向**芯片设计 LLM Agent** 的精选资料库。先按方向查找，再按发布月份浏览；每项资源集中提供论文、代码、多个标签和中英文简介。", lang)
-        home = ["# Awesome Chip Agents", f"[{language}]({other}) · " + text_pair(
-                    "[Website guide](docs/website.md)", "[网站使用与开发指南](docs/website.md)", lang), intro,
+        home = ["# Awesome Chip Agents",
+                text_pair(
+                    "[Browse the bilingual website](https://fengchuimailang.github.io/awesome-chip-agents/) · [Contribute a resource](https://github.com/fengchuimailang/awesome-chip-agents/issues/new?template=resource-suggestion.yml) · [Join discussions](https://github.com/fengchuimailang/awesome-chip-agents/discussions) · [简体中文](README_zh.md)",
+                    "[打开双语网站](https://fengchuimailang.github.io/awesome-chip-agents/) · [推荐一项资源](https://github.com/fengchuimailang/awesome-chip-agents/issues/new?template=resource-suggestion.yml) · [参与讨论](https://github.com/fengchuimailang/awesome-chip-agents/discussions) · [English](README.md)", lang),
+                intro,
+                text_pair("If this catalog helps your work, [star the repository](https://github.com/fengchuimailang/awesome-chip-agents) to help other chip-design researchers find it.",
+                          "如果这个目录对你的研究或开发有帮助，欢迎[点亮 Star](https://github.com/fengchuimailang/awesome-chip-agents)，让更多芯片设计同行发现它。", lang),
                 "## " + text_pair("Browse by Direction", "按方向查找", lang),
                 text_pair("Each record has one primary direction. Cross-references link to the same detail file.", "每项资源只有一个主要方向；跨方向条目链接到同一详情文件。", lang)]
         home.extend(["| " + text_pair("Direction | Primary resources", "方向 | 主要资源数", lang) + " |", "| --- | ---: |"])
@@ -438,7 +443,8 @@ def render_all(taxonomy, records, cache, downloads=None):
                          "Resources cover RTL generation/editing, verification/debugging, physical design, analog/RF, architecture/HLS/co-design, and agent infrastructure. Board, packaging, and system work is included when directly relevant. General tools and datasets are included only as supporting resources; not every listed benchmark is agent-specific. Simulator-based architecture optimization need not produce RTL. Vendor claims are identified in resource notes.",
                          "覆盖 RTL 生成与编辑、验证与调试、物理设计、模拟与 RF、架构探索与 HLS / 软硬件协同设计，以及 Agent 基础设施。板级、封装和系统资料需与上述工作直接相关。通用工具和数据集作为支撑资料收录，并非所有基准都专为 Agent 设计；基于模拟器的架构优化也不一定生成 RTL。厂商主张在详情中注明。", lang),
                      "## " + text_pair("Contributing", "如何贡献", lang),
-                     text_pair("See [contribution guidelines and the resource template](CONTRIBUTING.md). Keep English and Simplified Chinese content aligned.", "请参阅[贡献指南与资源模板](CONTRIBUTING.md)，保持中英文内容对应。", lang),
+                     text_pair("See the [contribution guide](CONTRIBUTING.md), browse [good first issues](https://github.com/fengchuimailang/awesome-chip-agents/labels/good%20first%20issue), or [suggest a resource](https://github.com/fengchuimailang/awesome-chip-agents/issues/new?template=resource-suggestion.yml). Keep English and Simplified Chinese content aligned.",
+                               "请参阅[贡献指南](CONTRIBUTING.md)，查看[适合初次贡献的任务](https://github.com/fengchuimailang/awesome-chip-agents/labels/good%20first%20issue)，或[推荐资源](https://github.com/fengchuimailang/awesome-chip-agents/issues/new?template=resource-suggestion.yml)，并保持中英文内容对应。", lang),
                      "## " + text_pair("License", "许可", lang),
                      text_pair("Original repository content uses the [MIT License](LICENSE). Linked resources retain their own terms.", "本仓库原创内容采用 [MIT License](LICENSE)；所链接资源遵循其各自条款。", lang)])
         # Keep the table and bullet lists contiguous, with blank lines around them.

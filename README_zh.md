@@ -2,9 +2,11 @@
 
 # Awesome Chip Agents
 
-[English](README.md) · [网站使用与开发指南](docs/website.md)
+[打开双语网站](https://fengchuimailang.github.io/awesome-chip-agents/) · [推荐一项资源](https://github.com/fengchuimailang/awesome-chip-agents/issues/new?template=resource-suggestion.yml) · [参与讨论](https://github.com/fengchuimailang/awesome-chip-agents/discussions) · [English](README.md)
 
 面向**芯片设计 LLM Agent** 的精选资料库。先按方向查找，再按发布月份浏览；每项资源集中提供论文、代码、多个标签和中英文简介。
+
+如果这个目录对你的研究或开发有帮助，欢迎[点亮 Star](https://github.com/fengchuimailang/awesome-chip-agents)，让更多芯片设计同行发现它。
 
 ## 按方向查找
 
@@ -39,7 +41,7 @@ GitHub Stars 和最近推送时间为每周采集的快照，均标注采集时�
 
 ## 如何贡献
 
-请参阅[贡献指南与资源模板](CONTRIBUTING.md)，保持中英文内容对应。
+请参阅[贡献指南](CONTRIBUTING.md)，查看[适合初次贡献的任务](https://github.com/fengchuimailang/awesome-chip-agents/labels/good%20first%20issue)，或[推荐资源](https://github.com/fengchuimailang/awesome-chip-agents/issues/new?template=resource-suggestion.yml)，并保持中英文内容对应。
 
 ## 许可
 
