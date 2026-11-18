@@ -1,8 +1,8 @@
 # Website / 网站
 
-React + Vite + TypeScript frontend for the shared bilingual catalog. See the [website guide](../docs/website.md).
+React + Vite + TypeScript frontend for the shared bilingual catalog, with Tailwind CSS v4 and shadcn/ui components. See the [website guide](../docs/website.md) and [design system](../docs/design-system.md).
 
-使用 React + Vite + TypeScript 展示同一份双语资源，详见[网站指南](../docs/website.md)。
+使用 React + Vite + TypeScript 展示同一份双语资源，采用 Tailwind CSS v4 与 shadcn/ui 组件，详见[网站指南](../docs/website.md)和[设计规范](../docs/design-system.md)。
 
 ## Development / 开发
 
@@ -21,9 +21,9 @@ Open http://localhost:5173/zh/ or http://localhost:5173/en/. The data export run
 
 ## Dependency audit / 依赖审计
 
-Audit snapshot, 2026-11-18: npm audit --omit=dev reports no production dependency vulnerabilities. The full audit reports five high-severity entries arising from the development dependency chain affected by the [picomatch advisory](https://github.com/advisories/GHSA-fc5q-39xc-vjpf). No patched picomatch release was available when checked. This remains unresolved; the deployed website consists of static files, without a Vite development server.
+Audit snapshot, 2026-11-18: `npm audit --omit=dev` reports no production dependency vulnerabilities. The full audit reports 13 entries (11 high, two moderate) in development dependency chains affected by the [picomatch advisory](https://github.com/advisories/GHSA-fc5q-39xc-vjpf) and [minimatch advisory](https://github.com/advisories/GHSA-g3hv-75wg-m249). `npm audit fix` did not resolve these; the suggested forced fixes downgrade Vite and shadcn across major versions and have not been applied. The deployed website consists of static files, without a Vite development server or shadcn CLI.
 
-2026-11-18 审计快照：npm audit --omit=dev 未发现生产依赖漏洞。完整审计有五个高危条目，源于同一项 picomatch 告警影响的开发依赖链；检查时尚无可用修复版本。此问题仍未解决。线上发布的是静态文件，不运行 Vite 开发服务器。
+2026-11-18 审计快照：`npm audit --omit=dev` 未发现生产依赖漏洞。完整审计有 13 个条目（11 个高危、2 个中危），源于 picomatch 与 minimatch 告警影响的开发依赖链。`npm audit fix` 未解决这些问题；建议的强制修复会跨主版本降级 Vite 与 shadcn，因此未采用。线上发布的是静态文件，不运行 Vite 开发服务器或 shadcn CLI。
 
 ## Production check / 生产构建检查
 

@@ -8,7 +8,7 @@ Edit `resources/` metadata and English/Chinese descriptions, plus the fixed voca
 
 The website generates English and Simplified Chinese home, catalog, direction, metric, and resource pages as HTML. React hydrates search and filters. Query parameters preserve filters when sharing links or switching languages. Publication dates, year-only precision, unknown dates, cross-references, and source notes follow the catalog. The footer identifies the source revision and local changes.
 
-See [frontend commands](../site/README.md). Resource editing remains standard-library-only Python; frontend development additionally requires Node.js 24.
+See [frontend commands](../site/README.md) and the [website design system](design-system.md) for shared shadcn components, typography, and responsive layout rules. Resource editing remains standard-library-only Python; frontend development additionally requires Node.js 24.
 
 ### Publication
 
@@ -64,7 +64,7 @@ References: [Vite prerendering](https://vite.dev/guide/ssr.html#pre-rendering-ss
 
 中英文首页、列表、方向、统计和资源详情均生成 HTML，React 接管搜索筛选。URL 查询参数保留筛选条件，支持分享和切换语言。日期精度、未知日期、跨方向入口及来源说明沿用目录。页脚标注来源版本和本地修改状态。
 
-命令见[网站说明](../site/README.md)。普通资源编辑仍只依赖 Python 标准库；前端开发另外需要 Node.js 24。
+命令见[网站说明](../site/README.md)，shadcn 公共组件、字号和响应式规则见[网站设计规范](design-system.md)。普通资源编辑仍只依赖 Python 标准库；前端开发另外需要 Node.js 24。
 
 ### 发布
 
