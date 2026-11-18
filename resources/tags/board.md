@@ -7,4 +7,5 @@
 | Resource / 资源 | Date / 日期 | Direction / 方向 |
 | --- | --- | --- |
 | [HWE-Bench · Schematic design](../../resources/board-system-design/hwe-bench-schematic.md) | 2026-03 | Board, Packaging and System Design / 板级、封装与系统设计 |
+| [Flux.ai](../../resources/board-system-design/flux-ai.md) | Unknown / 待核实 | Board, Packaging and System Design / 板级、封装与系统设计 |
 | [Cadence AuraStack](../../resources/board-system-design/cadence-aurastack.md) | Unknown / 待核实 | Board, Packaging and System Design / 板级、封装与系统设计 |

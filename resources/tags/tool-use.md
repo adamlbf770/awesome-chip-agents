@@ -37,6 +37,7 @@
 | [Silogy / Viv](../../resources/verification-debugging/silogy-viv.md) | Unknown / 待核实 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
 | [qucs-mcp](../../resources/agent-infrastructure/qucs-mcp.md) | Unknown / 待核实 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [MooresLabAI / MooreIP](../../resources/verification-debugging/mooreip.md) | Unknown / 待核实 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
+| [Flux.ai](../../resources/board-system-design/flux-ai.md) | Unknown / 待核实 | Board, Packaging and System Design / 板级、封装与系统设计 |
 | [eda-mcp (LittleBlackCQ)](../../resources/agent-infrastructure/eda-mcp-littleblackcq.md) | Unknown / 待核实 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [EDA_MCP](../../resources/agent-infrastructure/eda-mcp.md) | Unknown / 待核实 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [DRCHealer](../../resources/physical-design/drchealer.md) | Unknown / 待核实 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |

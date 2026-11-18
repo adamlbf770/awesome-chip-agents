@@ -18,7 +18,7 @@
 | [模拟与 RF 电路](resources/analog-rf/README_zh.md) | 9 |
 | [架构探索、HLS 与软硬件协同设计](resources/architecture-hls-codesign/README_zh.md) | 17 |
 | [Agent 基础设施与综述](resources/agent-infrastructure/README_zh.md) | 24 |
-| [板级、封装与系统设计](resources/board-system-design/README_zh.md) | 3 |
+| [板级、封装与系统设计](resources/board-system-design/README_zh.md) | 4 |
 
 ## 其他入口
 

@@ -29,17 +29,17 @@
 | [FPGA](fpga.md) | 5 |
 | [Repository-level tasks](repository-level.md) | 4 |
 | [Multi-agent](multi-agent.md) | 22 |
-| [Tool use](tool-use.md) | 37 |
+| [Tool use](tool-use.md) | 38 |
 | [Memory / experience](memory.md) | 1 |
 | [Infrastructure](infrastructure.md) | 25 |
 | [Benchmark](benchmark.md) | 26 |
 | [Dataset](dataset.md) | 9 |
 | [Evaluation](evaluation.md) | 24 |
-| [Commercial platform](commercial.md) | 21 |
+| [Commercial platform](commercial.md) | 22 |
 | [Overview / tutorial](overview.md) | 4 |
-| [Board / PCB](board.md) | 2 |
+| [Board / PCB](board.md) | 3 |
 | [Packaging / 3D IC](packaging.md) | 2 |
-| [System design](system.md) | 3 |
-| [Vendor-reported](vendor-report.md) | 39 |
+| [System design](system.md) | 4 |
+| [Vendor-reported](vendor-report.md) | 40 |
 | [Announcement](news.md) | 15 |
 | [Talk / video](video.md) | 5 |

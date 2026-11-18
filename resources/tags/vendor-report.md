@@ -36,6 +36,7 @@
 | [SigmanticAI](../../resources/rtl-generation/sigmanticai.md) | Unknown / 待核实 | RTL Generation and Editing / RTL 生成与编辑 |
 | [MooresLabAI / MooreIP](../../resources/verification-debugging/mooreip.md) | Unknown / 待核实 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
 | [Formal workflow webinar](../../resources/verification-debugging/formal-workflow-webinar.md) | Unknown / 待核实 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
+| [Flux.ai](../../resources/board-system-design/flux-ai.md) | Unknown / 待核实 | Board, Packaging and System Design / 板级、封装与系统设计 |
 | [Cognichip / ACI Enterprise](../../resources/agent-infrastructure/cognichip-aci.md) | Unknown / 待核实 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [Chipmind](../../resources/agent-infrastructure/chipmind.md) | Unknown / 待核实 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [Cadence ViraStack](../../resources/analog-rf/cadence-virastack.md) | Unknown / 待核实 | Analog and RF Design / 模拟与 RF 电路 |

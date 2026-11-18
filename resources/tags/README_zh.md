@@ -29,17 +29,17 @@
 | [FPGA](fpga.md) | 5 |
 | [仓库级任务](repository-level.md) | 4 |
 | [多 Agent](multi-agent.md) | 22 |
-| [工具调用](tool-use.md) | 37 |
+| [工具调用](tool-use.md) | 38 |
 | [记忆与经验](memory.md) | 1 |
 | [基础设施](infrastructure.md) | 25 |
 | [基准](benchmark.md) | 26 |
 | [数据集](dataset.md) | 9 |
 | [评测](evaluation.md) | 24 |
-| [商业平台](commercial.md) | 21 |
+| [商业平台](commercial.md) | 22 |
 | [综述 / 教程](overview.md) | 4 |
-| [板级 / PCB](board.md) | 2 |
+| [板级 / PCB](board.md) | 3 |
 | [封装 / 3D IC](packaging.md) | 2 |
-| [系统设计](system.md) | 3 |
-| [厂商报告](vendor-report.md) | 39 |
+| [系统设计](system.md) | 4 |
+| [厂商报告](vendor-report.md) | 40 |
 | [公告](news.md) | 15 |
 | [演讲 / 视频](video.md) | 5 |

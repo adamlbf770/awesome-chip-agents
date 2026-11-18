@@ -16,6 +16,7 @@
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
+| **[Flux.ai](../../resources/board-system-design/flux-ai.md)**<br>面向原理图与 PCB 的硬件设计 Agent，支持工程检查及外部 Agent 通过 MCP 接入；能力为厂商报告。 | [板级 / PCB](../../resources/tags/board.md) · [系统设计](../../resources/tags/system.md) · [工具调用](../../resources/tags/tool-use.md) · [商业平台](../../resources/tags/commercial.md) · [厂商报告](../../resources/tags/vendor-report.md)<br>工具 / 平台 | [原始来源](https://www.flux.ai/copilot) | — | — | — |
 | **[Cadence SystemStack](../../resources/board-system-design/cadence-systemstack.md)**<br>厂商产品组合中列出的多物理场 Agent；具体功能和可用情况尚不明确。 | [商业平台](../../resources/tags/commercial.md) · [系统设计](../../resources/tags/system.md) · [厂商报告](../../resources/tags/vendor-report.md)<br>工具 / 平台 | [原始来源](https://www.cadence.com/en_US/home/ai/agentic-ai-super-agents.html) | — | — | — |
 | **[Cadence AuraStack](../../resources/board-system-design/cadence-aurastack.md)**<br>Cadence 所述的 PCB 与先进封装设计 Agent 协同，涉及规划、实现、约束管理、可制造性和多物理场分析。 | [商业平台](../../resources/tags/commercial.md) · [板级 / PCB](../../resources/tags/board.md) · [封装 / 3D IC](../../resources/tags/packaging.md) · [厂商报告](../../resources/tags/vendor-report.md)<br>工具 / 平台 | [原始来源](https://www.cadence.com/en_US/home/tools/pcb-design-and-analysis/aurastack-ai-super-agent.html) | — | — | — |
 
