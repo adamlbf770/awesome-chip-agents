@@ -10,7 +10,7 @@
 | [代码生成](generation.md) | 15 |
 | [代码编辑](editing.md) | 3 |
 | [验证](verification.md) | 20 |
-| [调试](debugging.md) | 18 |
+| [调试](debugging.md) | 19 |
 | [形式验证](formal.md) | 13 |
 | [仿真](simulation.md) | 18 |
 | [测试平台](testbench.md) | 6 |
@@ -29,9 +29,9 @@
 | [FPGA](fpga.md) | 5 |
 | [仓库级任务](repository-level.md) | 4 |
 | [多 Agent](multi-agent.md) | 22 |
-| [工具调用](tool-use.md) | 38 |
+| [工具调用](tool-use.md) | 39 |
 | [记忆与经验](memory.md) | 1 |
-| [基础设施](infrastructure.md) | 25 |
+| [基础设施](infrastructure.md) | 26 |
 | [基准](benchmark.md) | 26 |
 | [数据集](dataset.md) | 9 |
 | [评测](evaluation.md) | 24 |

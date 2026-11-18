@@ -22,5 +22,6 @@
 | [VerilogCoder](../../resources/rtl-generation/verilogcoder.md) | 2024-08 | RTL Generation and Editing / RTL 生成与编辑 |
 | [RTLFixer](../../resources/verification-debugging/rtlfixer.md) | 2023-11 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
 | [Silogy / Viv](../../resources/verification-debugging/silogy-viv.md) | Unknown / 待核实 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
+| [Silimate](../../resources/rtl-generation/silimate.md) | Unknown / 待核实 | RTL Generation and Editing / RTL 生成与编辑 |
 | [CVDP](../../resources/rtl-generation/cvdp.md) | Unknown / 待核实 | RTL Generation and Editing / RTL 生成与编辑 |
 | [Bronco AI](../../resources/verification-debugging/bronco-ai.md) | Unknown / 待核实 | Verification, Debugging and Specifications / 验证、调试与规格推断 |

@@ -10,7 +10,7 @@
 | [Code generation](generation.md) | 15 |
 | [Code editing](editing.md) | 3 |
 | [Verification](verification.md) | 20 |
-| [Debugging](debugging.md) | 18 |
+| [Debugging](debugging.md) | 19 |
 | [Formal verification](formal.md) | 13 |
 | [Simulation](simulation.md) | 18 |
 | [Testbench](testbench.md) | 6 |
@@ -29,9 +29,9 @@
 | [FPGA](fpga.md) | 5 |
 | [Repository-level tasks](repository-level.md) | 4 |
 | [Multi-agent](multi-agent.md) | 22 |
-| [Tool use](tool-use.md) | 38 |
+| [Tool use](tool-use.md) | 39 |
 | [Memory / experience](memory.md) | 1 |
-| [Infrastructure](infrastructure.md) | 25 |
+| [Infrastructure](infrastructure.md) | 26 |
 | [Benchmark](benchmark.md) | 26 |
 | [Dataset](dataset.md) | 9 |
 | [Evaluation](evaluation.md) | 24 |
