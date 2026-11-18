@@ -13,6 +13,9 @@
 | [DuoDiscover announcement](../../resources/architecture-hls-codesign/duodiscover-announcement.md) | 2026-10 | Architecture, HLS and Hardware/Software Co-design / 架构探索、HLS 与软硬件协同设计 |
 | [DuoDiscover](../../resources/architecture-hls-codesign/duodiscover.md) | 2026-10 | Architecture, HLS and Hardware/Software Co-design / 架构探索、HLS 与软硬件协同设计 |
 | [TraceDSE](../../resources/architecture-hls-codesign/tracedse.md) | 2026-09 | Architecture, HLS and Hardware/Software Co-design / 架构探索、HLS 与软硬件协同设计 |
+| [Architect Labs / Redwood](../../resources/architecture-hls-codesign/redwood.md) | 2026-08-26 | Architecture, HLS and Hardware/Software Co-design / 架构探索、HLS 与软硬件协同设计 |
 | [CHIA](../../resources/architecture-hls-codesign/chia.md) | 2026-06 | Architecture, HLS and Hardware/Software Co-design / 架构探索、HLS 与软硬件协同设计 |
+| [Design Conductor 2.0 / VerTQ](../../resources/architecture-hls-codesign/design-conductor-2.md) | 2026-05-06 | Architecture, HLS and Hardware/Software Co-design / 架构探索、HLS 与软硬件协同设计 |
 | [Agentic Architect](../../resources/architecture-hls-codesign/agentic-architect.md) | 2026-04-28 | Architecture, HLS and Hardware/Software Co-design / 架构探索、HLS 与软硬件协同设计 |
 | [DPC4](../../resources/architecture-hls-codesign/dpc4.md) | 2026 | Architecture, HLS and Hardware/Software Co-design / 架构探索、HLS 与软硬件协同设计 |
+| [Design Conductor / VerCore](../../resources/architecture-hls-codesign/design-conductor.md) | 2026 | Architecture, HLS and Hardware/Software Co-design / 架构探索、HLS 与软硬件协同设计 |

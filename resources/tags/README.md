@@ -9,7 +9,7 @@
 | [RTL](rtl.md) | 47 |
 | [Code generation](generation.md) | 15 |
 | [Code editing](editing.md) | 3 |
-| [Verification](verification.md) | 14 |
+| [Verification](verification.md) | 15 |
 | [Debugging](debugging.md) | 16 |
 | [Formal verification](formal.md) | 12 |
 | [Simulation](simulation.md) | 18 |
@@ -19,16 +19,16 @@
 | [Physical design](physical-design.md) | 16 |
 | [PPA / QoR](ppa.md) | 14 |
 | [DRC](drc.md) | 2 |
-| [EDA workflows](eda-flow.md) | 25 |
+| [EDA workflows](eda-flow.md) | 26 |
 | [Analog / RF](analog-rf.md) | 15 |
 | [Circuit sizing](sizing.md) | 4 |
-| [Architecture exploration](architecture.md) | 10 |
+| [Architecture exploration](architecture.md) | 13 |
 | [HLS](hls.md) | 5 |
-| [HW/SW co-design](codesign.md) | 3 |
-| [RISC-V](risc-v.md) | 3 |
-| [FPGA](fpga.md) | 3 |
+| [HW/SW co-design](codesign.md) | 5 |
+| [RISC-V](risc-v.md) | 4 |
+| [FPGA](fpga.md) | 5 |
 | [Repository-level tasks](repository-level.md) | 4 |
-| [Multi-agent](multi-agent.md) | 18 |
+| [Multi-agent](multi-agent.md) | 20 |
 | [Tool use](tool-use.md) | 34 |
 | [Memory / experience](memory.md) | 1 |
 | [Infrastructure](infrastructure.md) | 24 |
@@ -40,6 +40,6 @@
 | [Board / PCB](board.md) | 2 |
 | [Packaging / 3D IC](packaging.md) | 2 |
 | [System design](system.md) | 3 |
-| [Vendor-reported](vendor-report.md) | 30 |
+| [Vendor-reported](vendor-report.md) | 33 |
 | [Announcement](news.md) | 14 |
 | [Talk / video](video.md) | 5 |

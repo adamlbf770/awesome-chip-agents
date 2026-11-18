@@ -8,6 +8,7 @@
 | --- | --- | --- |
 | [CovR](../../resources/verification-debugging/covr.md) | 2026-09-15 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
 | [TraceWeave](../../resources/agent-infrastructure/traceweave.md) | 2026-08-27 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
+| [Architect Labs / Redwood](../../resources/architecture-hls-codesign/redwood.md) | 2026-08-26 | Architecture, HLS and Hardware/Software Co-design / 架构探索、HLS 与软硬件协同设计 |
 | [Synopsys / NVIDIA workflows](../../resources/verification-debugging/synopsys-nvidia-workflows-2026.md) | 2026-07-26 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
 | [HORIZON](../../resources/rtl-generation/horizon.md) | 2026-06 | RTL Generation and Editing / RTL 生成与编辑 |
 | [ChipStack demo](../../resources/rtl-generation/chipstack-demo.md) | 2026-02-10 | RTL Generation and Editing / RTL 生成与编辑 |

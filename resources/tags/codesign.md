@@ -8,4 +8,6 @@
 | --- | --- | --- |
 | [Formulaic](../../resources/architecture-hls-codesign/formulaic.md) | 2026-10-29 | Architecture, HLS and Hardware/Software Co-design / 架构探索、HLS 与软硬件协同设计 |
 | [SparseCraft](../../resources/architecture-hls-codesign/sparsecraft.md) | 2026-10 | Architecture, HLS and Hardware/Software Co-design / 架构探索、HLS 与软硬件协同设计 |
+| [Architect Labs / Redwood](../../resources/architecture-hls-codesign/redwood.md) | 2026-08-26 | Architecture, HLS and Hardware/Software Co-design / 架构探索、HLS 与软硬件协同设计 |
 | [CHIA](../../resources/architecture-hls-codesign/chia.md) | 2026-06 | Architecture, HLS and Hardware/Software Co-design / 架构探索、HLS 与软硬件协同设计 |
+| [Design Conductor 2.0 / VerTQ](../../resources/architecture-hls-codesign/design-conductor-2.md) | 2026-05-06 | Architecture, HLS and Hardware/Software Co-design / 架构探索、HLS 与软硬件协同设计 |

@@ -30,6 +30,7 @@
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
+| **[Architect Labs / Redwood](../../resources/architecture-hls-codesign/redwood.md)**<br>报告 Agent 驱动的加速器与软件协同设计及 FPGA 验证；ASIC 能效数据为预测值。 | [架构探索](../../resources/tags/architecture.md) · [软硬件协同](../../resources/tags/codesign.md) · [验证](../../resources/tags/verification.md) · [FPGA](../../resources/tags/fpga.md) · [厂商报告](../../resources/tags/vendor-report.md)<br>论文 | [论文](https://arxiv.org/abs/2608.26418) | — | — | — |
 | **[LACE](../../resources/architecture-hls-codesign/lace.md)**<br>协调多个 Agent 完成 RISC-V 指令扩展设计、RTL 修改和形式验证。 | [RISC-V](../../resources/tags/risc-v.md) · [代码编辑](../../resources/tags/editing.md) · [形式验证](../../resources/tags/formal.md) · [多 Agent](../../resources/tags/multi-agent.md)<br>论文 / 开源项目 | [论文](https://arxiv.org/abs/2608.02915) | [UMN-ZhaoLab/LACE](https://github.com/UMN-ZhaoLab/LACE) | 4 | 2026-09-02<br>采集 2026-11-15 |
 
 ## 2026-06
@@ -37,6 +38,12 @@
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
 | **[CHIA](../../resources/architecture-hls-codesign/chia.md)**<br>提供面向 Agentic 软硬件协同设计研究的开源框架，并集成 Chipyard 和 gem5。 | [架构探索](../../resources/tags/architecture.md) · [软硬件协同](../../resources/tags/codesign.md) · [基础设施](../../resources/tags/infrastructure.md)<br>论文 | [论文](https://arxiv.org/abs/2606.27350) | — | — | — |
+
+## 2026-05
+
+| 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
+| --- | --- | --- | --- | ---: | --- |
+| **[Design Conductor 2.0 / VerTQ](../../resources/architecture-hls-codesign/design-conductor-2.md)**<br>报告多 Agent 设计 VerTQ 加速器的过程，提供 FPGA 映射、ASIC 实现指标与 Token 用量分析。 | [架构探索](../../resources/tags/architecture.md) · [软硬件协同](../../resources/tags/codesign.md) · [多 Agent](../../resources/tags/multi-agent.md) · [FPGA](../../resources/tags/fpga.md) · [厂商报告](../../resources/tags/vendor-report.md)<br>论文 | [论文](https://arxiv.org/abs/2605.05170) | — | — | — |
 
 ## 2026-04
 
@@ -50,6 +57,7 @@
 | --- | --- | --- | --- | ---: | --- |
 | **[HWE Bench · RISC-V design](../../resources/architecture-hls-codesign/hwe-bench-riscv.md)**<br>通过形式验证与仿真检查迭代优化 RV32IM CPU；V2 结合 FPGA 厂商时序分析和隐藏程序评分。 | [RISC-V](../../resources/tags/risc-v.md) · [形式验证](../../resources/tags/formal.md) · [FPGA](../../resources/tags/fpga.md) · [基准](../../resources/tags/benchmark.md)<br>基准 / 数据集 | — | [FeSens/auto-arch-tournament](https://github.com/FeSens/auto-arch-tournament) | 209 | 2026-10-05<br>采集 2026-11-15 |
 | **[DPC4](../../resources/architecture-hls-codesign/dpc4.md)**<br>CPU 数据预取器设计竞赛，使用 ChampSim 评估。 | [架构探索](../../resources/tags/architecture.md) · [仿真](../../resources/tags/simulation.md) · [评测](../../resources/tags/evaluation.md)<br>基准 / 数据集 | [原始来源](https://sites.google.com/view/dpc4-2026/home) | — | — | — |
+| **[Design Conductor / VerCore](../../resources/architecture-hls-codesign/design-conductor.md)**<br>协调 LLM Agent 完成 CPU 规格到 RTL、验证及 GDSII 的流程；VerCore 结果由开发方报告。 | [架构探索](../../resources/tags/architecture.md) · [RISC-V](../../resources/tags/risc-v.md) · [EDA 流程](../../resources/tags/eda-flow.md) · [多 Agent](../../resources/tags/multi-agent.md) · [厂商报告](../../resources/tags/vendor-report.md)<br>论文 | [论文](https://arxiv.org/abs/2603.08716) | — | — | — |
 
 ## 2025-11
 

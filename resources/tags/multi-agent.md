@@ -16,8 +16,10 @@
 | [GoalEvolve](../../resources/physical-design/goalevolve.md) | 2026-08 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
 | [RTL Repair Framework](../../resources/verification-debugging/rtl-repair-framework.md) | 2026-07-30 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
 | [Synopsys / NVIDIA workflows](../../resources/verification-debugging/synopsys-nvidia-workflows-2026.md) | 2026-07-26 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
+| [Design Conductor 2.0 / VerTQ](../../resources/architecture-hls-codesign/design-conductor-2.md) | 2026-05-06 | Architecture, HLS and Hardware/Software Co-design / 架构探索、HLS 与软硬件协同设计 |
 | [Veri-Sure](../../resources/rtl-generation/veri-sure.md) | 2026-01-27 | RTL Generation and Editing / RTL 生成与编辑 |
 | [Synopsys AgentEngineer / Autopilot](../../resources/agent-infrastructure/synopsys-agentengineer.md) | 2026 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
+| [Design Conductor / VerCore](../../resources/architecture-hls-codesign/design-conductor.md) | 2026 | Architecture, HLS and Hardware/Software Co-design / 架构探索、HLS 与软硬件协同设计 |
 | [AgentEngineer architecture](../../resources/agent-infrastructure/agentengineer-architecture.md) | 2026 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [AutoEDA](../../resources/agent-infrastructure/autoeda.md) | 2025-08-01 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [Spec2RTL-Agent](../../resources/rtl-generation/spec2rtl-agent.md) | 2025-06 | RTL Generation and Editing / RTL 生成与编辑 |

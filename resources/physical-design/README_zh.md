@@ -37,6 +37,7 @@
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
+| **[Design Conductor 2.0 / VerTQ](../../resources/architecture-hls-codesign/design-conductor-2.md)**<br>报告多 Agent 设计 VerTQ 加速器的过程，提供 FPGA 映射、ASIC 实现指标与 Token 用量分析。 | [架构探索](../../resources/tags/architecture.md) · [软硬件协同](../../resources/tags/codesign.md) · [多 Agent](../../resources/tags/multi-agent.md) · [FPGA](../../resources/tags/fpga.md) · [厂商报告](../../resources/tags/vendor-report.md)<br>论文 · 跨方向索引 | [论文](https://arxiv.org/abs/2605.05170) | — | — | — |
 | **[PostEDA-Bench](../../resources/physical-design/posteda-bench.md)**<br>评测初始 EDA 生成后，Agent 收敛 PPA 目标和修复 DRC 违规的能力。 | [物理设计](../../resources/tags/physical-design.md) · [PPA / QoR](../../resources/tags/ppa.md) · [DRC](../../resources/tags/drc.md) · [基准](../../resources/tags/benchmark.md)<br>基准 / 数据集 | [论文](https://arxiv.org/abs/2605.06936) | — | — | — |
 
 ## 2026-03
@@ -56,6 +57,7 @@
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
 | **[Synopsys AgentEngineer / Autopilot](../../resources/agent-infrastructure/synopsys-agentengineer.md)**<br>支持选择语言模型的商业 Agent 平台，提供面向验证、物理实现和模拟/混合信号设计的专用 Agent。 | [商业平台](../../resources/tags/commercial.md) · [EDA 流程](../../resources/tags/eda-flow.md) · [多 Agent](../../resources/tags/multi-agent.md) · [厂商报告](../../resources/tags/vendor-report.md)<br>工具 / 平台 · 跨方向索引 | [原始来源](https://www.synopsys.com/ai/agentic-ai.html) | — | — | — |
+| **[Design Conductor / VerCore](../../resources/architecture-hls-codesign/design-conductor.md)**<br>协调 LLM Agent 完成 CPU 规格到 RTL、验证及 GDSII 的流程；VerCore 结果由开发方报告。 | [架构探索](../../resources/tags/architecture.md) · [RISC-V](../../resources/tags/risc-v.md) · [EDA 流程](../../resources/tags/eda-flow.md) · [多 Agent](../../resources/tags/multi-agent.md) · [厂商报告](../../resources/tags/vendor-report.md)<br>论文 · 跨方向索引 | [论文](https://arxiv.org/abs/2603.08716) | — | — | — |
 | **[Build-A-Chip-Bench](../../resources/physical-design/build-a-chip-bench.md)**<br>以正确性门槛和 PPA 评测工作负载到 GDS 的 Agent；结果由开发方报告。 | [EDA 流程](../../resources/tags/eda-flow.md) · [PPA / QoR](../../resources/tags/ppa.md) · [基准](../../resources/tags/benchmark.md) · [厂商报告](../../resources/tags/vendor-report.md)<br>基准 / 数据集 | [原始来源](https://chipagents.ai/research/build-a-chip-bench) | — | — | — |
 
 ## 2025-08

@@ -30,6 +30,7 @@ Newest publication month first. Cross-references share the original record; repo
 
 | Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
 | --- | --- | --- | --- | ---: | --- |
+| **[Architect Labs / Redwood](../../resources/architecture-hls-codesign/redwood.md)**<br>Reports agent-driven accelerator and software co-design with FPGA validation; ASIC efficiency figures are projections. | [Architecture exploration](../../resources/tags/architecture.md) · [HW/SW co-design](../../resources/tags/codesign.md) · [Verification](../../resources/tags/verification.md) · [FPGA](../../resources/tags/fpga.md) · [Vendor-reported](../../resources/tags/vendor-report.md)<br>Paper | [Paper](https://arxiv.org/abs/2608.26418) | — | — | — |
 | **[LACE](../../resources/architecture-hls-codesign/lace.md)**<br>Coordinates agents for RISC-V instruction-extension design, RTL editing, and formal verification. | [RISC-V](../../resources/tags/risc-v.md) · [Code editing](../../resources/tags/editing.md) · [Formal verification](../../resources/tags/formal.md) · [Multi-agent](../../resources/tags/multi-agent.md)<br>Paper / Open-source project | [Paper](https://arxiv.org/abs/2608.02915) | [UMN-ZhaoLab/LACE](https://github.com/UMN-ZhaoLab/LACE) | 4 | 2026-09-02<br>Fetched 2026-11-15 |
 
 ## 2026-06
@@ -37,6 +38,12 @@ Newest publication month first. Cross-references share the original record; repo
 | Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
 | --- | --- | --- | --- | ---: | --- |
 | **[CHIA](../../resources/architecture-hls-codesign/chia.md)**<br>Defines an open framework for agentic hardware/software co-design research with Chipyard and gem5 integration. | [Architecture exploration](../../resources/tags/architecture.md) · [HW/SW co-design](../../resources/tags/codesign.md) · [Infrastructure](../../resources/tags/infrastructure.md)<br>Paper | [Paper](https://arxiv.org/abs/2606.27350) | — | — | — |
+
+## 2026-05
+
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[Design Conductor 2.0 / VerTQ](../../resources/architecture-hls-codesign/design-conductor-2.md)**<br>Reports multi-agent design of the VerTQ accelerator, with FPGA mapping, ASIC implementation metrics, and token-use analysis. | [Architecture exploration](../../resources/tags/architecture.md) · [HW/SW co-design](../../resources/tags/codesign.md) · [Multi-agent](../../resources/tags/multi-agent.md) · [FPGA](../../resources/tags/fpga.md) · [Vendor-reported](../../resources/tags/vendor-report.md)<br>Paper | [Paper](https://arxiv.org/abs/2605.05170) | — | — | — |
 
 ## 2026-04
 
@@ -50,6 +57,7 @@ Newest publication month first. Cross-references share the original record; repo
 | --- | --- | --- | --- | ---: | --- |
 | **[HWE Bench · RISC-V design](../../resources/architecture-hls-codesign/hwe-bench-riscv.md)**<br>Evolves RV32IM CPUs with formal and simulation gates; V2 scores vendor-timed FPGA designs on hidden programs. | [RISC-V](../../resources/tags/risc-v.md) · [Formal verification](../../resources/tags/formal.md) · [FPGA](../../resources/tags/fpga.md) · [Benchmark](../../resources/tags/benchmark.md)<br>Benchmark / dataset | — | [FeSens/auto-arch-tournament](https://github.com/FeSens/auto-arch-tournament) | 209 | 2026-10-05<br>Fetched 2026-11-15 |
 | **[DPC4](../../resources/architecture-hls-codesign/dpc4.md)**<br>CPU data-prefetcher design competition evaluated with ChampSim. | [Architecture exploration](../../resources/tags/architecture.md) · [Simulation](../../resources/tags/simulation.md) · [Evaluation](../../resources/tags/evaluation.md)<br>Benchmark / dataset | [Source](https://sites.google.com/view/dpc4-2026/home) | — | — | — |
+| **[Design Conductor / VerCore](../../resources/architecture-hls-codesign/design-conductor.md)**<br>Coordinates LLM agents from CPU specifications through RTL, verification, and GDSII; VerCore results are developer-reported. | [Architecture exploration](../../resources/tags/architecture.md) · [RISC-V](../../resources/tags/risc-v.md) · [EDA workflows](../../resources/tags/eda-flow.md) · [Multi-agent](../../resources/tags/multi-agent.md) · [Vendor-reported](../../resources/tags/vendor-report.md)<br>Paper | [Paper](https://arxiv.org/abs/2603.08716) | — | — | — |
 
 ## 2025-11
 

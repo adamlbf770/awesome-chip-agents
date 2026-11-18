@@ -8,4 +8,5 @@
 | --- | --- | --- |
 | [LACE](../../resources/architecture-hls-codesign/lace.md) | 2026-08 | Architecture, HLS and Hardware/Software Co-design / 架构探索、HLS 与软硬件协同设计 |
 | [HWE Bench · RISC-V design](../../resources/architecture-hls-codesign/hwe-bench-riscv.md) | 2026 | Architecture, HLS and Hardware/Software Co-design / 架构探索、HLS 与软硬件协同设计 |
+| [Design Conductor / VerCore](../../resources/architecture-hls-codesign/design-conductor.md) | 2026 | Architecture, HLS and Hardware/Software Co-design / 架构探索、HLS 与软硬件协同设计 |
 | [ai-chip-design-platform](../../resources/verification-debugging/ai-chip-design-platform.md) | Unknown / 待核实 | Verification, Debugging and Specifications / 验证、调试与规格推断 |

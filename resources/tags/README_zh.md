@@ -9,7 +9,7 @@
 | [RTL](rtl.md) | 47 |
 | [代码生成](generation.md) | 15 |
 | [代码编辑](editing.md) | 3 |
-| [验证](verification.md) | 14 |
+| [验证](verification.md) | 15 |
 | [调试](debugging.md) | 16 |
 | [形式验证](formal.md) | 12 |
 | [仿真](simulation.md) | 18 |
@@ -19,16 +19,16 @@
 | [物理设计](physical-design.md) | 16 |
 | [PPA / QoR](ppa.md) | 14 |
 | [DRC](drc.md) | 2 |
-| [EDA 流程](eda-flow.md) | 25 |
+| [EDA 流程](eda-flow.md) | 26 |
 | [模拟 / RF](analog-rf.md) | 15 |
 | [电路尺寸优化](sizing.md) | 4 |
-| [架构探索](architecture.md) | 10 |
+| [架构探索](architecture.md) | 13 |
 | [HLS](hls.md) | 5 |
-| [软硬件协同](codesign.md) | 3 |
-| [RISC-V](risc-v.md) | 3 |
-| [FPGA](fpga.md) | 3 |
+| [软硬件协同](codesign.md) | 5 |
+| [RISC-V](risc-v.md) | 4 |
+| [FPGA](fpga.md) | 5 |
 | [仓库级任务](repository-level.md) | 4 |
-| [多 Agent](multi-agent.md) | 18 |
+| [多 Agent](multi-agent.md) | 20 |
 | [工具调用](tool-use.md) | 34 |
 | [记忆与经验](memory.md) | 1 |
 | [基础设施](infrastructure.md) | 24 |
@@ -40,6 +40,6 @@
 | [板级 / PCB](board.md) | 2 |
 | [封装 / 3D IC](packaging.md) | 2 |
 | [系统设计](system.md) | 3 |
-| [厂商报告](vendor-report.md) | 30 |
+| [厂商报告](vendor-report.md) | 33 |
 | [公告](news.md) | 14 |
 | [演讲 / 视频](video.md) | 5 |

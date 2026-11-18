@@ -19,6 +19,7 @@
 | [FluxEDA](../../resources/agent-infrastructure/fluxeda.md) | 2026-03 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [OpenROAD MCP](../../resources/agent-infrastructure/openroad-mcp.md) | 2026-02-19 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [Synopsys AgentEngineer / Autopilot](../../resources/agent-infrastructure/synopsys-agentengineer.md) | 2026 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
+| [Design Conductor / VerCore](../../resources/architecture-hls-codesign/design-conductor.md) | 2026 | Architecture, HLS and Hardware/Software Co-design / 架构探索、HLS 与软硬件协同设计 |
 | [Build-A-Chip-Bench](../../resources/physical-design/build-a-chip-bench.md) | 2026 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
 | [AutoEDA](../../resources/agent-infrastructure/autoeda.md) | 2025-08-01 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [MCP4EDA](../../resources/agent-infrastructure/mcp4eda.md) | 2025-07-25 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |

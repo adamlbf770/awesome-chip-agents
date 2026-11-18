@@ -27,6 +27,7 @@
 
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
+| **[Architect Labs / Redwood](../../resources/architecture-hls-codesign/redwood.md)**<br>报告 Agent 驱动的加速器与软件协同设计及 FPGA 验证；ASIC 能效数据为预测值。 | [架构探索](../../resources/tags/architecture.md) · [软硬件协同](../../resources/tags/codesign.md) · [验证](../../resources/tags/verification.md) · [FPGA](../../resources/tags/fpga.md) · [厂商报告](../../resources/tags/vendor-report.md)<br>论文 · 跨方向索引 | [论文](https://arxiv.org/abs/2608.26418) | — | — | — |
 | **[NoTB](../../resources/verification-debugging/notb.md)**<br>使用跨模型形式共识筛选生成的 RTL，不依赖手写测试平台 Oracle。 | [RTL](../../resources/tags/rtl.md) · [形式验证](../../resources/tags/formal.md) · [评测](../../resources/tags/evaluation.md)<br>论文 · 跨方向索引 | [论文](https://arxiv.org/abs/2608.21962) | — | — | — |
 | **[LACE](../../resources/architecture-hls-codesign/lace.md)**<br>协调多个 Agent 完成 RISC-V 指令扩展设计、RTL 修改和形式验证。 | [RISC-V](../../resources/tags/risc-v.md) · [代码编辑](../../resources/tags/editing.md) · [形式验证](../../resources/tags/formal.md) · [多 Agent](../../resources/tags/multi-agent.md)<br>论文 / 开源项目 · 跨方向索引 | [论文](https://arxiv.org/abs/2608.02915) | [UMN-ZhaoLab/LACE](https://github.com/UMN-ZhaoLab/LACE) | 4 | 2026-09-02<br>采集 2026-11-15 |
 
