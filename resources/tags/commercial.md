@@ -17,7 +17,9 @@
 | [Synopsys.ai brochure](../../resources/agent-infrastructure/synopsys-ai-brochure.md) | 2025 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [Silogy / Viv](../../resources/verification-debugging/silogy-viv.md) | Unknown / 待核实 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
 | [Silimate](../../resources/rtl-generation/silimate.md) | Unknown / 待核实 | RTL Generation and Editing / RTL 生成与编辑 |
+| [SigmanticAI](../../resources/rtl-generation/sigmanticai.md) | Unknown / 待核实 | RTL Generation and Editing / RTL 生成与编辑 |
 | [MooresLabAI / MooreIP](../../resources/verification-debugging/mooreip.md) | Unknown / 待核实 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
+| [Cognichip / ACI Enterprise](../../resources/agent-infrastructure/cognichip-aci.md) | Unknown / 待核实 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [Chipmind](../../resources/agent-infrastructure/chipmind.md) | Unknown / 待核实 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [Cadence ViraStack](../../resources/analog-rf/cadence-virastack.md) | Unknown / 待核实 | Analog and RF Design / 模拟与 RF 电路 |
 | [Cadence SystemStack](../../resources/board-system-design/cadence-systemstack.md) | Unknown / 待核实 | Board, Packaging and System Design / 板级、封装与系统设计 |

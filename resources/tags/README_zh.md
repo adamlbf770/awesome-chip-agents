@@ -6,10 +6,10 @@
 
 | 标签 | 资源数 |
 | --- | ---: |
-| [RTL](rtl.md) | 47 |
+| [RTL](rtl.md) | 48 |
 | [代码生成](generation.md) | 15 |
 | [代码编辑](editing.md) | 3 |
-| [验证](verification.md) | 19 |
+| [验证](verification.md) | 20 |
 | [调试](debugging.md) | 18 |
 | [形式验证](formal.md) | 13 |
 | [仿真](simulation.md) | 18 |
@@ -19,7 +19,7 @@
 | [物理设计](physical-design.md) | 16 |
 | [PPA / QoR](ppa.md) | 14 |
 | [DRC](drc.md) | 2 |
-| [EDA 流程](eda-flow.md) | 26 |
+| [EDA 流程](eda-flow.md) | 27 |
 | [模拟 / RF](analog-rf.md) | 15 |
 | [电路尺寸优化](sizing.md) | 4 |
 | [架构探索](architecture.md) | 13 |
@@ -28,18 +28,18 @@
 | [RISC-V](risc-v.md) | 4 |
 | [FPGA](fpga.md) | 5 |
 | [仓库级任务](repository-level.md) | 4 |
-| [多 Agent](multi-agent.md) | 21 |
-| [工具调用](tool-use.md) | 36 |
+| [多 Agent](multi-agent.md) | 22 |
+| [工具调用](tool-use.md) | 37 |
 | [记忆与经验](memory.md) | 1 |
-| [基础设施](infrastructure.md) | 24 |
+| [基础设施](infrastructure.md) | 25 |
 | [基准](benchmark.md) | 26 |
 | [数据集](dataset.md) | 9 |
 | [评测](evaluation.md) | 24 |
-| [商业平台](commercial.md) | 19 |
+| [商业平台](commercial.md) | 21 |
 | [综述 / 教程](overview.md) | 4 |
 | [板级 / PCB](board.md) | 2 |
 | [封装 / 3D IC](packaging.md) | 2 |
 | [系统设计](system.md) | 3 |
-| [厂商报告](vendor-report.md) | 37 |
+| [厂商报告](vendor-report.md) | 39 |
 | [公告](news.md) | 15 |
 | [演讲 / 视频](video.md) | 5 |

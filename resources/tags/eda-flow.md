@@ -29,6 +29,7 @@
 | [Virtuoso-Bridge-Lite](../../resources/agent-infrastructure/virtuoso-bridge-lite.md) | Unknown / 待核实 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [OpenROAD](../../resources/physical-design/openroad.md) | Unknown / 待核实 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
 | [EDA_MCP](../../resources/agent-infrastructure/eda-mcp.md) | Unknown / 待核实 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
+| [Cognichip / ACI Enterprise](../../resources/agent-infrastructure/cognichip-aci.md) | Unknown / 待核实 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [Chipmind](../../resources/agent-infrastructure/chipmind.md) | Unknown / 待核实 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [Cadence InnoStack](../../resources/physical-design/cadence-innostack.md) | Unknown / 待核实 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
 | [AgentEngineer webinar](../../resources/agent-infrastructure/agentengineer-webinar.md) | Unknown / 待核实 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |

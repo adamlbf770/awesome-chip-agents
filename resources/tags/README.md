@@ -6,10 +6,10 @@
 
 | Tag | Resources |
 | --- | ---: |
-| [RTL](rtl.md) | 47 |
+| [RTL](rtl.md) | 48 |
 | [Code generation](generation.md) | 15 |
 | [Code editing](editing.md) | 3 |
-| [Verification](verification.md) | 19 |
+| [Verification](verification.md) | 20 |
 | [Debugging](debugging.md) | 18 |
 | [Formal verification](formal.md) | 13 |
 | [Simulation](simulation.md) | 18 |
@@ -19,7 +19,7 @@
 | [Physical design](physical-design.md) | 16 |
 | [PPA / QoR](ppa.md) | 14 |
 | [DRC](drc.md) | 2 |
-| [EDA workflows](eda-flow.md) | 26 |
+| [EDA workflows](eda-flow.md) | 27 |
 | [Analog / RF](analog-rf.md) | 15 |
 | [Circuit sizing](sizing.md) | 4 |
 | [Architecture exploration](architecture.md) | 13 |
@@ -28,18 +28,18 @@
 | [RISC-V](risc-v.md) | 4 |
 | [FPGA](fpga.md) | 5 |
 | [Repository-level tasks](repository-level.md) | 4 |
-| [Multi-agent](multi-agent.md) | 21 |
-| [Tool use](tool-use.md) | 36 |
+| [Multi-agent](multi-agent.md) | 22 |
+| [Tool use](tool-use.md) | 37 |
 | [Memory / experience](memory.md) | 1 |
-| [Infrastructure](infrastructure.md) | 24 |
+| [Infrastructure](infrastructure.md) | 25 |
 | [Benchmark](benchmark.md) | 26 |
 | [Dataset](dataset.md) | 9 |
 | [Evaluation](evaluation.md) | 24 |
-| [Commercial platform](commercial.md) | 19 |
+| [Commercial platform](commercial.md) | 21 |
 | [Overview / tutorial](overview.md) | 4 |
 | [Board / PCB](board.md) | 2 |
 | [Packaging / 3D IC](packaging.md) | 2 |
 | [System design](system.md) | 3 |
-| [Vendor-reported](vendor-report.md) | 37 |
+| [Vendor-reported](vendor-report.md) | 39 |
 | [Announcement](news.md) | 15 |
 | [Talk / video](video.md) | 5 |

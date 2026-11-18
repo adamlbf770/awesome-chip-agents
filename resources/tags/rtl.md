@@ -46,6 +46,7 @@
 | [AutoChip](../../resources/rtl-generation/autochip.md) | 2023-11 | RTL Generation and Editing / RTL 生成与编辑 |
 | [VerilogEval](../../resources/rtl-generation/verilogeval.md) | Unknown / 待核实 | RTL Generation and Editing / RTL 生成与编辑 |
 | [Silimate](../../resources/rtl-generation/silimate.md) | Unknown / 待核实 | RTL Generation and Editing / RTL 生成与编辑 |
+| [SigmanticAI](../../resources/rtl-generation/sigmanticai.md) | Unknown / 待核实 | RTL Generation and Editing / RTL 生成与编辑 |
 | [SCORE](../../resources/rtl-generation/score.md) | Unknown / 待核实 | RTL Generation and Editing / RTL 生成与编辑 |
 | [RTLLM](../../resources/rtl-generation/rtllm.md) | Unknown / 待核实 | RTL Generation and Editing / RTL 生成与编辑 |
 | [eda-mcp (LittleBlackCQ)](../../resources/agent-infrastructure/eda-mcp-littleblackcq.md) | Unknown / 待核实 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |

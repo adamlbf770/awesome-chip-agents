@@ -28,5 +28,6 @@
 | [OpenROAD](../../resources/physical-design/openroad.md) | Unknown / 待核实 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
 | [eda-mcp (LittleBlackCQ)](../../resources/agent-infrastructure/eda-mcp-littleblackcq.md) | Unknown / 待核实 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [EDA_MCP](../../resources/agent-infrastructure/eda-mcp.md) | Unknown / 待核实 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
+| [Cognichip / ACI Enterprise](../../resources/agent-infrastructure/cognichip-aci.md) | Unknown / 待核实 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [circuit-sim-mcp](../../resources/agent-infrastructure/circuit-sim-mcp.md) | Unknown / 待核实 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [Booley](../../resources/agent-infrastructure/booley.md) | Unknown / 待核实 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
