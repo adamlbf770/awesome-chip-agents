@@ -19,8 +19,8 @@
 | [物理设计](physical-design.md) | 16 |
 | [PPA / QoR](ppa.md) | 14 |
 | [DRC](drc.md) | 2 |
-| [EDA 流程](eda-flow.md) | 24 |
-| [模拟 / RF](analog-rf.md) | 14 |
+| [EDA 流程](eda-flow.md) | 25 |
+| [模拟 / RF](analog-rf.md) | 15 |
 | [电路尺寸优化](sizing.md) | 4 |
 | [架构探索](architecture.md) | 10 |
 | [HLS](hls.md) | 5 |
@@ -29,9 +29,9 @@
 | [FPGA](fpga.md) | 3 |
 | [仓库级任务](repository-level.md) | 4 |
 | [多 Agent](multi-agent.md) | 18 |
-| [工具调用](tool-use.md) | 33 |
+| [工具调用](tool-use.md) | 34 |
 | [记忆与经验](memory.md) | 1 |
-| [基础设施](infrastructure.md) | 23 |
+| [基础设施](infrastructure.md) | 24 |
 | [基准](benchmark.md) | 25 |
 | [数据集](dataset.md) | 8 |
 | [评测](evaluation.md) | 23 |

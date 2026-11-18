@@ -10,6 +10,7 @@
 | [RFChipAgent](../../resources/analog-rf/rfchipagent.md) | 2026-10-07 | Analog and RF Design / 模拟与 RF 电路 |
 | [Long-Horizon Analog Design Bench](../../resources/analog-rf/long-horizon-analog-design-bench.md) | 2026-09-27 | Analog and RF Design / 模拟与 RF 电路 |
 | [AgenticSizing](../../resources/analog-rf/agenticsizing.md) | 2026-09-22 | Analog and RF Design / 模拟与 RF 电路 |
+| [Analog Canvas](../../resources/agent-infrastructure/analog-canvas.md) | 2026-08-14 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [Razavi-Bench](../../resources/analog-rf/razavi-bench.md) | 2026-07-02 | Analog and RF Design / 模拟与 RF 电路 |
 | [ltspice-mcp](../../resources/agent-infrastructure/ltspice-mcp.md) | 2026-04-06 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [AnalogAgent](../../resources/analog-rf/analogagent.md) | 2026-03 | Analog and RF Design / 模拟与 RF 电路 |

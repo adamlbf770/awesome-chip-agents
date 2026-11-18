@@ -14,6 +14,7 @@
 | [agentic-asic](../../resources/agent-infrastructure/agentic-asic.md) | 2026-09-05 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [TraceDSE](../../resources/architecture-hls-codesign/tracedse.md) | 2026-09 | Architecture, HLS and Hardware/Software Co-design / 架构探索、HLS 与软硬件协同设计 |
 | [TraceWeave](../../resources/agent-infrastructure/traceweave.md) | 2026-08-27 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
+| [Analog Canvas](../../resources/agent-infrastructure/analog-canvas.md) | 2026-08-14 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [wave-mcp](../../resources/agent-infrastructure/wave-mcp.md) | 2026-08 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [RTL Repair Framework](../../resources/verification-debugging/rtl-repair-framework.md) | 2026-07-30 | Verification, Debugging and Specifications / 验证、调试与规格推断 |
 | [Razavi-Bench](../../resources/analog-rf/razavi-bench.md) | 2026-07-02 | Analog and RF Design / 模拟与 RF 电路 |

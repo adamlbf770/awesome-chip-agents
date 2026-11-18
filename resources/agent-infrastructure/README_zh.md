@@ -23,6 +23,7 @@
 | 资源 / 简介 | 标签 / 类型 | 论文 / 来源 | 仓库 | Stars | 最近推送（UTC） |
 | --- | --- | --- | --- | ---: | --- |
 | **[TraceWeave](../../resources/agent-infrastructure/traceweave.md)**<br>面向 RTL/SoC 的调试 MCP 服务，将编译记录、日志、RTL、波形、信号连通性和 X/Z 来源关联起来。 | [基础设施](../../resources/tags/infrastructure.md) · [工具调用](../../resources/tags/tool-use.md) · [验证](../../resources/tags/verification.md) · [调试](../../resources/tags/debugging.md) · [波形分析](../../resources/tags/waveform.md)<br>开源项目 / 工具 / 平台 | — | [gokeshenzhen/TraceWeave](https://github.com/gokeshenzhen/TraceWeave) | 131 | 2026-10-13<br>采集 2026-11-15 |
+| **[Analog Canvas](../../resources/agent-infrastructure/analog-canvas.md)**<br>层级原理图编辑器，通过 MCP 与 HTTP 向 Agent 提供结构化电路快照和事务式编辑，并支持 SPICE/Spectre 交换。 | [基础设施](../../resources/tags/infrastructure.md) · [工具调用](../../resources/tags/tool-use.md) · [模拟 / RF](../../resources/tags/analog-rf.md) · [EDA 流程](../../resources/tags/eda-flow.md)<br>开源项目 / 工具 / 平台 | — | [cascode-ai/analog-canvas](https://github.com/cascode-ai/analog-canvas) | 173 | 2026-11-18<br>采集 2026-11-18 |
 | **[wave-mcp](../../resources/agent-infrastructure/wave-mcp.md)**<br>通过 MCP 为 LLM Agent 提供 FST 波形查询、RTL 驱动分析、值与 X 态追踪及波形对比。 | [基础设施](../../resources/tags/infrastructure.md) · [工具调用](../../resources/tags/tool-use.md) · [RTL](../../resources/tags/rtl.md) · [波形分析](../../resources/tags/waveform.md) · [调试](../../resources/tags/debugging.md)<br>开源项目 / 工具 / 平台 | — | [Tencent/wave-mcp](https://github.com/Tencent/wave-mcp) | 285 | 2026-10-23<br>采集 2026-11-15 |
 
 ## 2026-06

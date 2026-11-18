@@ -12,6 +12,7 @@
 | [CoreSmith](../../resources/physical-design/coresmith.md) | 2026-10-09 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
 | [GPT-Synopsys partnership](../../resources/agent-infrastructure/gpt-synopsys-announcement.md) | 2026-09-30 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [agentic-asic](../../resources/agent-infrastructure/agentic-asic.md) | 2026-09-05 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
+| [Analog Canvas](../../resources/agent-infrastructure/analog-canvas.md) | 2026-08-14 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [InnoStack demo](../../resources/physical-design/innostack-demo.md) | 2026-07-22 | Physical Design and EDA Flows / 物理设计与 EDA 流程 |
 | [hw-agent-tooling](../../resources/agent-infrastructure/hw-agent-tooling.md) | 2026-06-16 | Agent Infrastructure and Overviews / Agent 基础设施与综述 |
 | [Synopsys Converge · AgentEngineer](../../resources/rtl-generation/synopsys-converge-2026.md) | 2026-03-11 | RTL Generation and Editing / RTL 生成与编辑 |

@@ -19,8 +19,8 @@
 | [Physical design](physical-design.md) | 16 |
 | [PPA / QoR](ppa.md) | 14 |
 | [DRC](drc.md) | 2 |
-| [EDA workflows](eda-flow.md) | 24 |
-| [Analog / RF](analog-rf.md) | 14 |
+| [EDA workflows](eda-flow.md) | 25 |
+| [Analog / RF](analog-rf.md) | 15 |
 | [Circuit sizing](sizing.md) | 4 |
 | [Architecture exploration](architecture.md) | 10 |
 | [HLS](hls.md) | 5 |
@@ -29,9 +29,9 @@
 | [FPGA](fpga.md) | 3 |
 | [Repository-level tasks](repository-level.md) | 4 |
 | [Multi-agent](multi-agent.md) | 18 |
-| [Tool use](tool-use.md) | 33 |
+| [Tool use](tool-use.md) | 34 |
 | [Memory / experience](memory.md) | 1 |
-| [Infrastructure](infrastructure.md) | 23 |
+| [Infrastructure](infrastructure.md) | 24 |
 | [Benchmark](benchmark.md) | 25 |
 | [Dataset](dataset.md) | 8 |
 | [Evaluation](evaluation.md) | 23 |

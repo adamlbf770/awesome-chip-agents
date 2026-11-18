@@ -20,6 +20,12 @@ Newest publication month first. Cross-references share the original record; repo
 | **[Long-Horizon Analog Design Bench](../../resources/analog-rf/long-horizon-analog-design-bench.md)**<br>Evaluates agents on 50 transistor-level design tasks contributed by 17 chip designers, using an open-source simulator and an isolated verifier to check electrical specifications over hours-long runs. | [Analog / RF](../../resources/tags/analog-rf.md) · [Simulation](../../resources/tags/simulation.md) · [Benchmark](../../resources/tags/benchmark.md) · [Evaluation](../../resources/tags/evaluation.md)<br>Benchmark / dataset | [Paper](https://arxiv.org/abs/2609.33356) | — | — | — |
 | **[AgenticSizing](../../resources/analog-rf/agenticsizing.md)**<br>Analyzes circuit topology and functional blocks, reuses design knowledge, and coordinates specialized sizing agents through simulation feedback. | [Analog / RF](../../resources/tags/analog-rf.md) · [Circuit sizing](../../resources/tags/sizing.md) · [Simulation](../../resources/tags/simulation.md) · [Multi-agent](../../resources/tags/multi-agent.md)<br>Paper / Open-source project | [Paper](https://arxiv.org/abs/2609.25873) | [aprilaihub/agentic-analog-sizing](https://github.com/aprilaihub/agentic-analog-sizing) | 4 | 2026-09-22<br>Fetched 2026-11-15 |
 
+## 2026-08
+
+| Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |
+| --- | --- | --- | --- | ---: | --- |
+| **[Analog Canvas](../../resources/agent-infrastructure/analog-canvas.md)**<br>A hierarchical schematic editor exposing typed circuit snapshots and transaction-based edits to agents through MCP and HTTP, with SPICE/Spectre interchange. | [Infrastructure](../../resources/tags/infrastructure.md) · [Tool use](../../resources/tags/tool-use.md) · [Analog / RF](../../resources/tags/analog-rf.md) · [EDA workflows](../../resources/tags/eda-flow.md)<br>Open-source project / Tool / platform · cross-reference | — | [cascode-ai/analog-canvas](https://github.com/cascode-ai/analog-canvas) | 173 | 2026-11-18<br>Fetched 2026-11-18 |
+
 ## 2026-07
 
 | Resource / Summary | Tags / Type | Paper / Source | Repository | Stars | Last push (UTC) |

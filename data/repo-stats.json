@@ -89,6 +89,15 @@
     "last_attempt_at": "2026-11-15T20:54:38Z",
     "fetch_error": null
   },
+  "cascode-ai/analog-canvas": {
+    "full_name": "cascode-ai/analog-canvas",
+    "stars": 173,
+    "pushed_at": "2026-11-18T01:15:40Z",
+    "fetched_at": "2026-11-18T01:15:47Z",
+    "archived": false,
+    "last_attempt_at": "2026-11-18T01:15:47Z",
+    "fetch_error": null
+  },
   "circuitnet/circuitnet": {
     "full_name": "circuitnet/CircuitNet",
     "stars": 524,
